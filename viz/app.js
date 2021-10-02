@@ -6,10 +6,12 @@ const BACKGROUND_LIGHT = "hsl(61,80%,80%)";
 const BACKGROUND_DARK = "hsl(80,30%,40%)";
 const BACKGROUND_RANGE = [BACKGROUND_LIGHT, BACKGROUND_DARK];
 
-const GREEN_PARTY = "Green";
+const GREEN_PARTY = "Green Party";
 const LIBERAL_PARTY = "Liberal";
 const NDP_PARTY = "NDP";
 const CONSERVATIVE_PARTY = "Conservative";
+const BLOC_QUEBECOIS_PARTY = "Bloc Québécois";
+const INDEPENDENT = "Independent";
 const UNKNOWN_PARTY = "Unknown";
 
 const NUM_SIBLINGS_FOR_SMALL_TEXT = 4;
@@ -41,6 +43,11 @@ function getFillColor(d) {
     } else if (party === CONSERVATIVE_PARTY) {
       // 1B A8 DE
       result = d3.rgb(27, 168, 222);
+    } else if (party === BLOC_QUEBECOIS_PARTY) {
+      // 49 B7 BE
+      result = d3.rgb(73, 183, 190);
+    } else if (party === INDEPENDENT) {
+      result = d3.rgb(192, 192, 192);
     }
   }
   return result;

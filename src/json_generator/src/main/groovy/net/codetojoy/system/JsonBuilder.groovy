@@ -40,8 +40,22 @@ class JsonBuilder {
         return ["$NAME": NONE, "$PARTY": UNKNOWN_SIGN, "$SIZE": DEFAULT_SIZE]
     }
 
+    def checkParty(def party) {
+        def GREEN_PARTY = "Green Party";
+        def LIBERAL_PARTY = "Liberal";
+        def NDP_PARTY = "NDP";
+        def CONSERVATIVE_PARTY = "Conservative";
+        def BLOC_QUEBECOIS_PARTY = "Bloc Québécois";
+        def INDEPENDENT = "Independent";
+        def parties = [GREEN_PARTY, LIBERAL_PARTY, NDP_PARTY, CONSERVATIVE_PARTY, BLOC_QUEBECOIS_PARTY, INDEPENDENT]
+        if (!parties.contains(party)) {
+            System.err.println "internal error on party : ${party}"
+        }
+    }
+
     def buildChildrenForSign(def infos, def displaySign) {
         def children = infos.findResults { info ->
+            checkParty(info.party)
             def dataSign = info.zodiac
             def thisDisplaySign = new Signs().getDisplaySign(dataSign)
             if (thisDisplaySign == displaySign) {

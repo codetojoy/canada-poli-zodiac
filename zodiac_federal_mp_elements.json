@@ -8,8 +8,8 @@
                     "name": "Aries",
                     "children": [
                         {
-                            "name": "None identified (yet)",
-                            "party": "unknown",
+                            "name": "Terry Beech",
+                            "party": "Liberal",
                             "size": 1000
                         }
                     ]
@@ -30,7 +30,17 @@
                         {
                             "name": "Dan Albas",
                             "party": "Conservative",
-                            "size": 1000
+                            "size": 333.3333333333
+                        },
+                        {
+                            "name": "Yvan Baker",
+                            "party": "Liberal",
+                            "size": 333.3333333333
+                        },
+                        {
+                            "name": "Hon. Carolyn Bennett",
+                            "party": "Liberal",
+                            "size": 333.3333333333
                         }
                     ]
                 }
@@ -55,12 +65,17 @@
                         {
                             "name": "Hon. Omar Alghabra",
                             "party": "Liberal",
-                            "size": 500
+                            "size": 333.3333333333
                         },
                         {
                             "name": "Charlie Angus",
                             "party": "NDP",
-                            "size": 500
+                            "size": 333.3333333333
+                        },
+                        {
+                            "name": "Xavier Barsalou-Duval",
+                            "party": "Bloc Qu\u00e9b\u00e9cois",
+                            "size": 333.3333333333
                         }
                     ]
                 },
@@ -68,8 +83,8 @@
                     "name": "Pisces",
                     "children": [
                         {
-                            "name": "None identified (yet)",
-                            "party": "unknown",
+                            "name": "Bob Benzen",
+                            "party": "Conservative",
                             "size": 1000
                         }
                     ]
@@ -93,9 +108,19 @@
                     "name": "Libra",
                     "children": [
                         {
-                            "name": "None identified (yet)",
-                            "party": "unknown",
-                            "size": 1000
+                            "name": "Vance Badawey",
+                            "party": "Liberal",
+                            "size": 333.3333333333
+                        },
+                        {
+                            "name": "John Barlow",
+                            "party": "Conservative",
+                            "size": 333.3333333333
+                        },
+                        {
+                            "name": "Hon. Candice Bergen",
+                            "party": "Conservative",
+                            "size": 333.3333333333
                         }
                     ]
                 },
@@ -105,7 +130,17 @@
                         {
                             "name": "Dean Allison",
                             "party": "Conservative",
-                            "size": 1000
+                            "size": 333.3333333333
+                        },
+                        {
+                            "name": "Mario Beaulieu",
+                            "party": "Bloc Qu\u00e9b\u00e9cois",
+                            "size": 333.3333333333
+                        },
+                        {
+                            "name": "St\u00e9phane Bergeron",
+                            "party": "Bloc Qu\u00e9b\u00e9cois",
+                            "size": 333.3333333333
                         }
                     ]
                 }
@@ -118,8 +153,8 @@
                     "name": "Taurus",
                     "children": [
                         {
-                            "name": "None identified (yet)",
-                            "party": "unknown",
+                            "name": "Rachel Bendayan",
+                            "party": "Liberal",
                             "size": 1000
                         }
                     ]
