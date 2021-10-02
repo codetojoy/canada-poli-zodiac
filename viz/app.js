@@ -39,8 +39,8 @@ function getFillColor(d) {
       // F3, 82, 30
       result = d3.rgb(243, 50, 48);
     } else if (party === CONSERVATIVE_PARTY) {
-      // 2E, 85, C4
-      result = d3.rgb(46, 133, 196);
+      // 1B A8 DE
+      result = d3.rgb(27, 168, 222);
     }
   }
   return result;
