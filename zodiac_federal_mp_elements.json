@@ -1,0 +1,145 @@
+{
+    "name": "zodiac",
+    "children": [
+        {
+            "name": "Fire",
+            "children": [
+                {
+                    "name": "Aries",
+                    "children": [
+                        {
+                            "name": "None identified (yet)",
+                            "party": "unknown",
+                            "size": 1000
+                        }
+                    ]
+                },
+                {
+                    "name": "Leo",
+                    "children": [
+                        {
+                            "name": "None identified (yet)",
+                            "party": "unknown",
+                            "size": 1000
+                        }
+                    ]
+                },
+                {
+                    "name": "Sagittarius",
+                    "children": [
+                        {
+                            "name": "None identified (yet)",
+                            "party": "unknown",
+                            "size": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Water",
+            "children": [
+                {
+                    "name": "Cancer",
+                    "children": [
+                        {
+                            "name": "None identified (yet)",
+                            "party": "unknown",
+                            "size": 1000
+                        }
+                    ]
+                },
+                {
+                    "name": "Scorpio",
+                    "children": [
+                        {
+                            "name": "None identified (yet)",
+                            "party": "unknown",
+                            "size": 1000
+                        }
+                    ]
+                },
+                {
+                    "name": "Pisces",
+                    "children": [
+                        {
+                            "name": "None identified (yet)",
+                            "party": "unknown",
+                            "size": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Air",
+            "children": [
+                {
+                    "name": "Gemini",
+                    "children": [
+                        {
+                            "name": "None identified (yet)",
+                            "party": "unknown",
+                            "size": 1000
+                        }
+                    ]
+                },
+                {
+                    "name": "Libra",
+                    "children": [
+                        {
+                            "name": "None identified (yet)",
+                            "party": "unknown",
+                            "size": 1000
+                        }
+                    ]
+                },
+                {
+                    "name": "Aquarius",
+                    "children": [
+                        {
+                            "name": "None identified (yet)",
+                            "party": "unknown",
+                            "size": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Earth",
+            "children": [
+                {
+                    "name": "Taurus",
+                    "children": [
+                        {
+                            "name": "None identified (yet)",
+                            "party": "unknown",
+                            "size": 1000
+                        }
+                    ]
+                },
+                {
+                    "name": "Virgo",
+                    "children": [
+                        {
+                            "name": "None identified (yet)",
+                            "party": "unknown",
+                            "size": 1000
+                        }
+                    ]
+                },
+                {
+                    "name": "Capricorn",
+                    "children": [
+                        {
+                            "name": "None identified (yet)",
+                            "party": "unknown",
+                            "size": 1000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
