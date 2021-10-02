@@ -9,7 +9,7 @@ const BACKGROUND_RANGE = [BACKGROUND_LIGHT, BACKGROUND_DARK];
 const GREEN_PARTY = "Green";
 const LIBERAL_PARTY = "Liberal";
 const NDP_PARTY = "NDP";
-const PC_PARTY = "PC";
+const CONSERVATIVE_PARTY = "Conservative";
 const UNKNOWN_PARTY = "Unknown";
 
 const NUM_SIBLINGS_FOR_SMALL_TEXT = 4;
@@ -38,7 +38,7 @@ function getFillColor(d) {
     } else if (party === NDP_PARTY) {
       // F3, 82, 30
       result = d3.rgb(243, 50, 48);
-    } else if (party === PC_PARTY) {
+    } else if (party === CONSERVATIVE_PARTY) {
       // 2E, 85, C4
       result = d3.rgb(46, 133, 196);
     }

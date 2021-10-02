@@ -75,9 +75,14 @@
             "name": "Scorpio",
             "children": [
                 {
-                    "name": "None identified (yet)",
-                    "party": "unknown",
-                    "size": 1000
+                    "name": "Hon. Omar Alghabra",
+                    "party": "Liberal",
+                    "size": 500
+                },
+                {
+                    "name": "Charlie Angus",
+                    "party": "NDP",
+                    "size": 500
                 }
             ]
         },
@@ -85,8 +90,8 @@
             "name": "Sagittarius",
             "children": [
                 {
-                    "name": "None identified (yet)",
-                    "party": "unknown",
+                    "name": "Dan Albas",
+                    "party": "Conservative",
                     "size": 1000
                 }
             ]
@@ -105,8 +110,8 @@
             "name": "Aquarius",
             "children": [
                 {
-                    "name": "None identified (yet)",
-                    "party": "unknown",
+                    "name": "Dean Allison",
+                    "party": "Conservative",
                     "size": 1000
                 }
             ]
@@ -127,1692 +132,1672 @@
                 {
                     "name": "Ziad Aboultaif",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Scott Aitchison",
                     "party": "Conservative",
-                    "size": 2.9585798817
-                },
-                {
-                    "name": "Dan Albas",
-                    "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "John Aldag",
                     "party": "Liberal",
-                    "size": 2.9585798817
-                },
-                {
-                    "name": "Hon. Omar Alghabra",
-                    "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Shafqat Ali",
                     "party": "Liberal",
-                    "size": 2.9585798817
-                },
-                {
-                    "name": "Dean Allison",
-                    "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Anita Anand",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Gary Anandasangaree",
                     "party": "Liberal",
-                    "size": 2.9585798817
-                },
-                {
-                    "name": "Charlie Angus",
-                    "party": "NDP",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Mel Arnold",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Ren\u00e9 Arseneault",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Chandra Arya",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Niki Ashton",
                     "party": "NDP",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Jenica Atwin",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Taylor Bachrach",
                     "party": "NDP",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Vance Badawey",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Paramvir Bains",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Yvan Baker",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Tony Baldinelli",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "John Barlow",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Michael Barrett",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Lisa Marie Barron",
                     "party": "NDP",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Xavier Barsalou-Duval",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Jaime Battiste",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Mario Beaulieu",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Terry Beech",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Rachel Bendayan",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Carolyn Bennett",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Bob Benzen",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Candice Bergen",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "St\u00e9phane Bergeron",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Luc Berthold",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Sylvie B\u00e9rub\u00e9",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "James Bezan",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Marie-Claude Bibeau",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Chris Bittle",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Daniel Blaikie",
                     "party": "NDP",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Bill Blair",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Yves-Fran\u00e7ois Blanchet",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Maxime Blanchette-Joncas",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Rachel Blaney",
                     "party": "NDP",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Kelly Block",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Kody Blois",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Randy Boissonnault",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Alexandre Boulerice",
                     "party": "NDP",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Valerie Bradford",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Richard Bragdon",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "John Brassard",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "\u00c9lisabeth Bri\u00e8re",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Larry Brock",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Alexis Brunelle-Duceppe",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Blaine Calkins",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Richard Cannings",
                     "party": "NDP",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Frank Caputo",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Jim Carr",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Colin Carrie",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Sean Casey",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Louise Chabot",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Bardish Chagger",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Harnirjodh Chahal",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Adam Chambers",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Fran\u00e7ois-Philippe Champagne",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Martin Champoux",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Sophie Chatel",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Shaun Chen",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Paul Chiang",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Michael Chong",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Chad Collins",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Laurel Collins",
                     "party": "NDP",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Michael Cooper",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Serge Cormier",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Michael Coteau",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Julie Dabrusin",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Marc Dalton",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Pam Damoff",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Raquel Dancho",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Scot Davidson",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Don Davies",
                     "party": "NDP",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Claude DeBellefeuille",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "G\u00e9rard Deltell",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Chris d'Entremont",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Caroline Desbiens",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Luc Desilets",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Blake Desjarlais",
                     "party": "NDP",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Sukh Dhaliwal",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Anju Dhillon",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Lena Metlege Diab",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Todd Doherty",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Han Dong",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Terry Dowdall",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Earl Dreeshen",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Francis Drouin",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Emmanuel Dubourg",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Jean-Yves Duclos",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Terry Duguid",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Eric Duncan",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Kirsty Duncan",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Julie Dzerowicz",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Ali Ehsassi",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Fay\u00e7al El-Khoury",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Stephen Ellis",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Dave Epp",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Nathaniel Erskine-Smith",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Rosemarie Falk",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Ted Falk",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Ed Fast",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Greg Fergus",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Michelle Ferreri",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Andy Fillmore",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Kerry-Lynne Findlay",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Darren Fisher",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Peter Fonseca",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Mona Fortier",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Rh\u00e9al Fortin",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Peter Fragiskatos",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Sean Fraser",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Chrystia Freeland",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Hedy Fry",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Iqwinder Gaheer",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Cheryl Gallant",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Marc Garneau",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Jean-Denis Garon",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Randall Garrison",
                     "party": "NDP",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Marie-H\u00e9l\u00e8ne Gaudreau",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Leah Gazan",
                     "party": "NDP",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Bernard G\u00e9n\u00e9reux",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Garnett Genuis",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Mark Gerretsen",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Maril\u00e8ne Gill",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Marilyn Gladu",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Jo\u00ebl Godin",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Laila Goodridge",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Karina Gould",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Jacques Gourde",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Tracy Gray",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Matthew Green",
                     "party": "NDP",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Steven Guilbeault",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Patty Hajdu",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Jasraj Singh Hallan",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Brendan Hanley",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Rachael Harder",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Ken Hardie",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Lisa Hepfner",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Randy Hoback",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Mark Holland",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Anthony Housefather",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Carol Hughes",
                     "party": "NDP",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Ahmed Hussen",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Gudie Hutchings",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Angelo Iacono",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Lori Idlout",
                     "party": "NDP",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Marci Ien",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Helena Jaczek",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Matt Jeneroux",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Gord Johns",
                     "party": "NDP",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. M\u00e9lanie Joly",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Yvonne Jones",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Majid Jowhari",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Peter Julian",
                     "party": "NDP",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Arielle Kayabaga",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Mike Kelloway",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Pat Kelly",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Iqra Khalid",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Kamal Khera",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Robert Kitchen",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Tom Kmiec",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Annie Koutrakis",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Michael Kram",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Shelby Kramp-Neuman",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Damien Kurek",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Stephanie Kusie",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Irek Kusmierczyk",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Jenny Kwan",
                     "party": "NDP",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Mike Lake",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Marie-France Lalonde",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Emmanuella Lambropoulos",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. David Lametti",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Kevin Lamoureux",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Melissa Lantsman",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Viviane Lapointe",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Andr\u00e9anne Larouche",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Patricia Lattanzio",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "St\u00e9phane Lauzon",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Philip Lawrence",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Dominic LeBlanc",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Diane Lebouthillier",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Richard Lehoux",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "S\u00e9bastien Lemire",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Chris Lewis",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Leslyn Lewis",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Ron Liepert",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Jo\u00ebl Lightbound",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Dane Lloyd",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Ben Lobb",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Wayne Long",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Lloyd Longfield",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Tim Louis",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Lawrence MacAulay",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Heath MacDonald",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Alistair MacGregor",
                     "party": "NDP",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Dave MacKenzie",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Steven MacKinnon",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Larry Maguire",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "James Maloney",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Richard Martel",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Soraya Martinez Ferrada",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Brian Masse",
                     "party": "NDP",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Lindsay Mathyssen",
                     "party": "NDP",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Bryan May",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Elizabeth May",
                     "party": "Green Party",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Dan Mazier",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Kelly McCauley",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Ken McDonald",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. David McGuinty",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. John McKay",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Ron McKinnon",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Greg McLean",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Michael McLeod",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Heather McPherson",
                     "party": "NDP",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Eric Melillo",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Alexandra Mend\u00e8s",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Marco Mendicino",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Chung An Wilson Miao",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Kristina Michaud",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Marc Miller",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Rob Moore",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Marty Morantz",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Michael Morrice",
                     "party": "Green Party",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Rob Morrison",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Robert Morrissey",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Glen Motz",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Joyce Murray",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Dan Muys",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Yasir Naqvi",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "John Nater",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Mary Ng",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Taleeb Noormohamed",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Christine Normandin",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Jennifer O'Connell",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Patrick O'Hara",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Robert Oliphant",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Seamus O'Regan",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Erin O'Toole",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Jeremy Patzer",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Pierre Paul-Hus",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Monique Pauz\u00e9",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Richard Perkins",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Yves Perron",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Ginette Petitpas Taylor",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Louis Plamondon",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Pierre Poilievre",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Marcus Powlowski",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Carla Qualtrough",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Alain Rayes",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Brad Redekopp",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Scott Reid",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Michelle Rempel Garner",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Blake Richards",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Anna Roberts",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Yves Robillard",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Pablo Rodriguez",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Churence Rogers",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Sherry Romanado",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Lianne Rood",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Anthony Rota",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Alex Ruff",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Ruby Sahota",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Harjit S. Sajjan",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Ya'ara Saks",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Darrell Samson",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Randeep Sarai",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Simon-Pierre Savard-Tremblay",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Francis Scarpaleggia",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Andrew Scheer",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Peter Schiefke",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Jamie Schmale",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Kyle Seeback",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Marc Serr\u00e9",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Judy A. Sgro",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Terry Sheehan",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Martin Shields",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Doug Shipley",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Maninder Sidhu",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Sonia Sidhu",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Mario Simard",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Nathalie Sinclair-Desgagn\u00e9",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Jagmeet Singh",
                     "party": "NDP",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Clifford Small",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Francesco Sorbara",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Gerald Soroka",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Sven Spengemann",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Warren Steinley",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Gabriel Ste-Marie",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Jake Stewart",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Pascale St-Onge",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Mark Strahl",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Shannon Stubbs",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Jenna Sudds",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Filomena Tassi",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Leah Taylor Roy",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Luc Th\u00e9riault",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Alain Therrien",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Joanne Thompson",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Corey Tochor",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Fraser Tolmie",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Right Hon. Justin Trudeau",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Denis Trudel",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Ryan Turnbull",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Tim Uppal",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Rechie Valdez",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Tony Van Bynen",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Adam van Koeverden",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Tako Van Popta",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Dan Vandal",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Anita Vandenbeld",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Karen Vecchio",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Gary Vidal",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Dominique Vien",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Arnold Viersen",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Julie Vignola",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Ren\u00e9 Villemure",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Arif Virani",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Brad Vis",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Kevin Vuong",
                     "party": "Independent",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Cathay Wagantall",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Chris Warkentin",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Kevin Waugh",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Len Webber",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Patrick Weiler",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Hon. Jonathan Wilkinson",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Ryan Williams",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "John Williamson",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Jean Yip",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Salma Zahid",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Bonita Zarrillo",
                     "party": "NDP",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Bob Zimmer",
                     "party": "Conservative",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 },
                 {
                     "name": "Sameer Zuberi",
                     "party": "Liberal",
-                    "size": 2.9585798817
+                    "size": 2.9940119760
                 }
             ]
         }

@@ -28,8 +28,8 @@
                     "name": "Sagittarius",
                     "children": [
                         {
-                            "name": "None identified (yet)",
-                            "party": "unknown",
+                            "name": "Dan Albas",
+                            "party": "Conservative",
                             "size": 1000
                         }
                     ]
@@ -53,9 +53,14 @@
                     "name": "Scorpio",
                     "children": [
                         {
-                            "name": "None identified (yet)",
-                            "party": "unknown",
-                            "size": 1000
+                            "name": "Hon. Omar Alghabra",
+                            "party": "Liberal",
+                            "size": 500
+                        },
+                        {
+                            "name": "Charlie Angus",
+                            "party": "NDP",
+                            "size": 500
                         }
                     ]
                 },
@@ -98,8 +103,8 @@
                     "name": "Aquarius",
                     "children": [
                         {
-                            "name": "None identified (yet)",
-                            "party": "unknown",
+                            "name": "Dean Allison",
+                            "party": "Conservative",
                             "size": 1000
                         }
                     ]
