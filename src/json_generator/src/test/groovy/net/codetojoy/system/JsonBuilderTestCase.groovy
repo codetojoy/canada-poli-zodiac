@@ -17,10 +17,11 @@ class JsonBuilderTestCase {
         def province = "Prince Edward Island"
         def riding = "Salzburg"
         def party = "Independent" 	// which party would Mozart join?
+	def source = "Wikipedia"
 
         def info = new Info(name: name, zodiac: zodiac,
                             province: province, riding: riding,
-                           party: party)
+                           party: party, source: source)
 	def infos = []
 	infos << info
 
@@ -61,10 +62,11 @@ class JsonBuilderTestCase {
         def province = "Prince Edward Island"
         def riding = "Salzburg"
         def party = "Independent" 	// which party would Mozart join?
+	def source = "Wikipedia"
 
         def info = new Info(name: name, zodiac: zodiac,
                             province: province, riding: riding,
-                           party: party)
+                           party: party, source: source)
 	def infos = []
 	infos << info
 

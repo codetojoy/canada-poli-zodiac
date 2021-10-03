@@ -9,7 +9,9 @@ class Info {
     def riding = ""
     def party = ""
     def province = ""
+    def source = ""
 
+/*
     static def utils = new Utils()
 
     static String getHeader() {
@@ -19,4 +21,5 @@ class Info {
     String toString() {
         utils.buildList([name, zodiac, province, riding, party])
     }
+    */
 }

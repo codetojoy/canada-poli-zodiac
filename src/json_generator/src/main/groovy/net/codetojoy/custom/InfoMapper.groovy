@@ -13,6 +13,7 @@ class InfoMapper {
     static final def INDEX_PROVINCE = 4
     static final def INDEX_PARTY = 5
     static final def INDEX_ZODIAC = 8
+    static final def INDEX_SOURCE = 9
     /*
     static final def INDEX_NAME = 0
     static final def INDEX_ZODIAC = 1
@@ -40,13 +41,14 @@ class InfoMapper {
             def riding = line.getAt(INDEX_RIDING)
             def province = line.getAt(INDEX_PROVINCE)
             def party = line.getAt(INDEX_PARTY)
+            def source = line.getAt(INDEX_SOURCE)
 
             if (zodiac) {
                 info = new Info(name: name, zodiac: zodiac,
-                                riding: riding, party: party, province: province)
+                                riding: riding, party: party, province: province, source: source)
             } else {
                 info = new Info(name: name, zodiac: Signs.UNKNOWN_DATA_SIGN,
-                                riding: riding, party: party, province: province)
+                                riding: riding, party: party, province: province, source: source)
             }
         } catch(Exception ex) {
             System.err.println("TRACER caught ex : ${ex.message}")

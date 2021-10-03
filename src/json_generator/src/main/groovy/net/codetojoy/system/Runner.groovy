@@ -8,12 +8,9 @@ class Runner {
     static final def MODE_ELEMENTS = "elements"
 
     def parser
-    def outputHeader
 
     def Runner() {
-        def config = new Config()
-        parser = config.parser
-        outputHeader = config.outputHeader
+        parser = new Config().parser
     }
 
     def buildInfos(def infile) {

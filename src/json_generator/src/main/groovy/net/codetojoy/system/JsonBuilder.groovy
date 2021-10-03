@@ -40,9 +40,15 @@ class JsonBuilder {
         return ["$NAME": NONE, "$PARTY": UNKNOWN_SIGN, "$SIZE": DEFAULT_SIZE]
     }
 
-    def validateSign(def sign) {
+    def validateSign(def info) {
+        def sign = info.zodiac
+        def source = info.source
         if (! sign.isEmpty()) {
             assert Signs.DATA_SIGNS.contains(sign.toLowerCase())
+            if (sign != Signs.UNKNOWN_DATA_SIGN) {
+                // System.err.println "INTERNAL ERROR: no source name: ${info.name} sign: ${sign}"
+                assert Sources.SOURCES.contains(source)
+            }
         }
     }
 
@@ -55,7 +61,7 @@ class JsonBuilder {
     }
 
     def validate(def info) {
-        validateSign(info.zodiac)
+        validateSign(info)
         validateParty(info.party)
         validateProvince(info.province)
     }
