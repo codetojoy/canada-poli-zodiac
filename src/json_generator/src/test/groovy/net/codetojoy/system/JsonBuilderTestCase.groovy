@@ -11,17 +11,12 @@ class JsonBuilderTestCase {
     def jsonBuilder = new JsonBuilder()
 
     @Test
-    void testCanary() {
-        assertEquals(2+2, 4)
-    }
-
-    @Test
     void testBuildNormal() {
         def name = "Mozart"
         def zodiac = "Aquarius"
-        def province = "Salzburg"
+        def province = "Prince Edward Island"
         def riding = "Salzburg"
-        def party = "PC" 	// which party would Mozart join?
+        def party = "Independent" 	// which party would Mozart join?
 
         def info = new Info(name: name, zodiac: zodiac,
                             province: province, riding: riding,
@@ -49,7 +44,7 @@ class JsonBuilderTestCase {
 
             if (sign == "Aquarius") {
 		assertEquals(grandChild["name"], "Mozart")
-		assertEquals(grandChild["party"], "PC")
+		assertEquals(grandChild["party"], "Independent")
 		assertEquals(grandChild["size"], 1000)
 	    } else {
 		assertEquals(grandChild["name"], "None identified (yet)")
@@ -63,9 +58,9 @@ class JsonBuilderTestCase {
     void testBuildWithElements() {
         def name = "Mozart"
         def zodiac = "Aquarius"
-        def province = "Salzburg"
+        def province = "Prince Edward Island"
         def riding = "Salzburg"
-        def party = "PC" 	// which party would Mozart join?
+        def party = "Independent" 	// which party would Mozart join?
 
         def info = new Info(name: name, zodiac: zodiac,
                             province: province, riding: riding,
@@ -130,7 +125,7 @@ class JsonBuilderTestCase {
 
             if (sign == "Aquarius") {
 		assertEquals(grandChild["name"], "Mozart")
-		assertEquals(grandChild["party"], "PC")
+		assertEquals(grandChild["party"], "Independent")
 		assertEquals(grandChild["size"], 1000)
 	    } else {
 		assertEquals(grandChild["name"], "None identified (yet)")
