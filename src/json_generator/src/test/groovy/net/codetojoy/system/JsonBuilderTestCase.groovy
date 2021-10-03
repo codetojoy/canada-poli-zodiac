@@ -21,7 +21,7 @@ class JsonBuilderTestCase {
 
         def info = new Info(name: name, zodiac: zodiac,
                             province: province, riding: riding,
-                           party: party, source: source)
+                           party: party, source: source, lastName: name)
 	def infos = []
 	infos << info
 
@@ -35,7 +35,7 @@ class JsonBuilderTestCase {
 	def topLevelChildren = resultMap["children"]
 
 	assertEquals(resultMap["name"], "zodiac")
-	assertEquals(topLevelChildren.size(), 13)
+	assertEquals(topLevelChildren.size(), 12)
 
 	topLevelChildren.each { child ->
 	    def sign = child["name"]
@@ -66,7 +66,7 @@ class JsonBuilderTestCase {
 
         def info = new Info(name: name, zodiac: zodiac,
                             province: province, riding: riding,
-                           party: party, source: source)
+                           party: party, source: source, lastName: name)
 	def infoRows = []
 	infoRows << info
 	def infos = new Infos()

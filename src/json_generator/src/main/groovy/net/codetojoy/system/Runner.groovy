@@ -7,6 +7,7 @@ class Runner {
     static final def MODE_NORMAL = "normal"
     static final def MODE_ELEMENTS = "elements"
     static final def MODE_PROVINCES = "provinces"
+    static final def MODE_UNKNOWN = "unknown"
 
     def parser
 
@@ -42,6 +43,8 @@ class Runner {
             json = jsonBuilder.buildWithElements(infos)
         } else if (mode.trim().toLowerCase() == MODE_PROVINCES) {
             json = jsonBuilder.buildWithProvinces(infos)
+        } else if (mode.trim().toLowerCase() == MODE_UNKNOWN) {
+            json = jsonBuilder.buildForUnknown(infos)
         } else {
             throw new IllegalStateException("internal error")
         }
@@ -54,9 +57,8 @@ class Runner {
 
     def run(def mode, def infile, def outfile) {
         def trimMode = mode.trim().toLowerCase()
-        if (trimMode == MODE_NORMAL || trimMode == MODE_ELEMENTS || trimMode == MODE_PROVINCES) {
-                // ok
-        } else {
+        def modes = [MODE_NORMAL, MODE_ELEMENTS, MODE_PROVINCES, MODE_UNKNOWN]
+        if (! modes.contains(trimMode)) {
             throw new IllegalArgumentException("unknown mode: $mode")
         }
         def infoRows = buildInfos(infile)

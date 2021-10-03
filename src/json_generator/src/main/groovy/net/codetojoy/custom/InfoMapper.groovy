@@ -45,10 +45,12 @@ class InfoMapper {
 
             if (zodiac) {
                 info = new Info(name: name, zodiac: zodiac,
-                                riding: riding, party: party, province: province, source: source)
+                                riding: riding, party: party,
+                                province: province, source: source, lastName: lastName)
             } else {
                 info = new Info(name: name, zodiac: Signs.UNKNOWN_DATA_SIGN,
-                                riding: riding, party: party, province: province, source: source)
+                                riding: riding, party: party,
+                                province: province, source: source, lastName: lastName)
             }
         } catch(Exception ex) {
             System.err.println("TRACER caught ex : ${ex.message}")
@@ -57,4 +59,3 @@ class InfoMapper {
         return info
     }
 }
-
