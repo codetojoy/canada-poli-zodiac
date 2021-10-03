@@ -2,6 +2,7 @@
 
 const NORMAL_JSON_FILE = "./zodiac_federal_mp.json";
 const ELEMENTS_JSON_FILE = "./zodiac_federal_mp_elements.json";
+const PROVINCES_JSON_FILE = "./zodiac_federal_mp_provinces.json";
 const BACKGROUND_LIGHT = "hsl(61,80%,80%)";
 const BACKGROUND_DARK = "hsl(80,30%,40%)";
 const BACKGROUND_RANGE = [BACKGROUND_LIGHT, BACKGROUND_DARK];
@@ -225,8 +226,11 @@ function modeCheckboxHandler(event) {
     drawCircle(NORMAL_JSON_FILE);
   } else if (value === "elements") {
     drawCircle(ELEMENTS_JSON_FILE);
+  } else if (value === "provinces") {
+    drawCircle(PROVINCES_JSON_FILE);
   }
 }
 
 document.getElementById("checkbox-normal").addEventListener("change", modeCheckboxHandler);
 document.getElementById("checkbox-elements").addEventListener("change", modeCheckboxHandler);
+document.getElementById("checkbox-provinces").addEventListener("change", modeCheckboxHandler);

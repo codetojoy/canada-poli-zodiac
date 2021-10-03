@@ -2,6 +2,10 @@
 package net.codetojoy.system
 
 class Provinces {
+    static final def NL_DISPLAY = "N.L."
+    static final def NWT_DISPLAY = "N.W.T."
+    static final def PEI_DISPLAY = "P.E.I."
+
     static final def AB = "Alberta"
     static final def BC = "British Columbia"
     static final def MB = "Manitoba"

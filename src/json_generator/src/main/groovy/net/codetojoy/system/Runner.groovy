@@ -6,6 +6,7 @@ import net.codetojoy.custom.Config
 class Runner {
     static final def MODE_NORMAL = "normal"
     static final def MODE_ELEMENTS = "elements"
+    static final def MODE_PROVINCES = "provinces"
 
     def parser
 
@@ -37,8 +38,12 @@ class Runner {
 
         if (mode.trim().toLowerCase() == MODE_NORMAL) {
             json = jsonBuilder.buildNormal(infos)
-        } else {
+        } else if (mode.trim().toLowerCase() == MODE_ELEMENTS) {
             json = jsonBuilder.buildWithElements(infos)
+        } else if (mode.trim().toLowerCase() == MODE_PROVINCES) {
+            json = jsonBuilder.buildWithProvinces(infos)
+        } else {
+            throw new IllegalStateException("internal error")
         }
 
         new File(outputFile).withWriter { writer ->
@@ -48,7 +53,10 @@ class Runner {
     }
 
     def run(def mode, def infile, def outfile) {
-        if ((! mode.trim().toLowerCase() == MODE_NORMAL) && (! mode.trim().toLowerCase() == MODE_ELEMENTS)) {
+        def trimMode = mode.trim().toLowerCase()
+        if (trimMode == MODE_NORMAL || trimMode == MODE_ELEMENTS || trimMode == MODE_PROVINCES) {
+                // ok
+        } else {
             throw new IllegalArgumentException("unknown mode: $mode")
         }
         def infos = buildInfos(infile)

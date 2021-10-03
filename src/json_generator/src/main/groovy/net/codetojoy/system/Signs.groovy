@@ -2,6 +2,8 @@
 package net.codetojoy.system
 
 class Signs {
+  static final def UNKNOWN_DISPLAY_SIGN = "Unknown"
+
   static final def DISPLAY_SIGNS = [
       "Aries", //  ♈",
       "Taurus", //  ♉",
