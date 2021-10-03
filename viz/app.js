@@ -95,7 +95,7 @@ function drawCircle(jsonFile) {
     g = svg.append("g").attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
   // clear any previous graph, esp. if zoomed in
-  svg.selectAll("circle").remove();
+  svg.selectAll("circle,text").remove();
 
   /*
   let previousNodes = svg.selectAll("circle,text");
