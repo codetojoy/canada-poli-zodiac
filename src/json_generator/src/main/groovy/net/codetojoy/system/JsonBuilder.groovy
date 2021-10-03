@@ -105,6 +105,8 @@ class JsonBuilder {
         return JsonOutput.prettyPrint(json)
     }
 
+    // by element
+
     def buildChildrenWithElement(def infos, def element) {
         def children = []
         def signs = new Signs()
@@ -120,18 +122,17 @@ class JsonBuilder {
     }
 
     def buildWithElements(def infos) {
-        // this is not efficient, but it's a small list
-        def fireChildren = buildChildrenWithElement(infos, "Fire")
-        def waterChildren = buildChildrenWithElement(infos, "Water")
-        def airChildren = buildChildrenWithElement(infos, "Air")
-        def earthChildren = buildChildrenWithElement(infos, "Earth")
+        def fireChildren = buildChildrenWithElement(infos.infoMap[Signs.FIRE], Signs.FIRE)
+        def waterChildren = buildChildrenWithElement(infos.infoMap[Signs.WATER], Signs.WATER)
+        def airChildren = buildChildrenWithElement(infos.infoMap[Signs.AIR], Signs.AIR)
+        def earthChildren = buildChildrenWithElement(infos.infoMap[Signs.EARTH], Signs.EARTH)
 
         def jsonMap = [
             "name" : "zodiac", "children" : [
-                ["name": "Fire", "children" : fireChildren],
-                ["name": "Water", "children" : waterChildren],
-                ["name": "Air", "children" : airChildren],
-                ["name": "Earth", "children" : earthChildren],
+                ["name": Signs.FIRE, "children" : fireChildren],
+                ["name": Signs.WATER, "children" : waterChildren],
+                ["name": Signs.AIR, "children" : airChildren],
+                ["name": Signs.EARTH, "children" : earthChildren],
             ]
         ]
         def json = JsonOutput.toJson(jsonMap)
@@ -182,24 +183,23 @@ class JsonBuilder {
     }
 
     def buildWithProvinces(def infos) {
-        // this is not efficient, but it's a small list
-        def abChildren = buildChildrenWithProvince(infos.findAll { it.province == Provinces.AB }, Provinces.AB)
-        def bcChildren = buildChildrenWithProvince(infos.findAll { it.province == Provinces.BC }, Provinces.BC)
-        def mbChildren = buildChildrenWithProvince(infos.findAll { it.province == Provinces.MB }, Provinces.MB)
-        def nbChildren = buildChildrenWithProvince(infos.findAll { it.province == Provinces.NB }, Provinces.NB)
-        def nlChildren = buildChildrenWithProvince(infos.findAll { it.province == Provinces.NL }, Provinces.NL)
-        def nsChildren = buildChildrenWithProvince(infos.findAll { it.province == Provinces.NS }, Provinces.NS)
-        def onChildren = buildChildrenWithProvince(infos.findAll { it.province == Provinces.ON }, Provinces.ON)
+        def abChildren = buildChildrenWithProvince(infos.infoMap[Provinces.AB], Provinces.AB)
+        def bcChildren = buildChildrenWithProvince(infos.infoMap[Provinces.BC], Provinces.BC)
+        def mbChildren = buildChildrenWithProvince(infos.infoMap[Provinces.MB], Provinces.MB)
+        def nbChildren = buildChildrenWithProvince(infos.infoMap[Provinces.NB], Provinces.NB)
+        def nlChildren = buildChildrenWithProvince(infos.infoMap[Provinces.NL], Provinces.NL)
+        def nsChildren = buildChildrenWithProvince(infos.infoMap[Provinces.NS], Provinces.NS)
+        def onChildren = buildChildrenWithProvince(infos.infoMap[Provinces.ON], Provinces.ON)
 
-        def nuChildren = buildChildrenWithProvince(infos.findAll { it.province == Provinces.NU }, Provinces.NU)
+        def nuChildren = buildChildrenWithProvince(infos.infoMap[Provinces.NU], Provinces.NU)
         assert nuChildren.isEmpty()
 
-        def ntChildren = buildChildrenWithProvince(infos.findAll { it.province == Provinces.NT }, Provinces.NT)
-        def peiChildren = buildChildrenWithProvince(infos.findAll { it.province == Provinces.PEI }, Provinces.PEI)
-        def qcChildren = buildChildrenWithProvince(infos.findAll { it.province == Provinces.QC }, Provinces.QC)
-        def skChildren = buildChildrenWithProvince(infos.findAll { it.province == Provinces.SK }, Provinces.SK)
+        def ntChildren = buildChildrenWithProvince(infos.infoMap[Provinces.NT], Provinces.NT)
+        def peiChildren = buildChildrenWithProvince(infos.infoMap[Provinces.PEI], Provinces.PEI)
+        def qcChildren = buildChildrenWithProvince(infos.infoMap[Provinces.QC], Provinces.QC)
+        def skChildren = buildChildrenWithProvince(infos.infoMap[Provinces.SK], Provinces.SK)
 
-        def ytChildren = buildChildrenWithProvince(infos.findAll { it.province == Provinces.YT }, Provinces.YT)
+        def ytChildren = buildChildrenWithProvince(infos.infoMap[Provinces.YT], Provinces.YT)
         assert ytChildren.isEmpty()
 
         def jsonMap = [

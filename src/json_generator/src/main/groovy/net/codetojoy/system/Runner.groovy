@@ -37,7 +37,7 @@ class Runner {
         def jsonBuilder = new JsonBuilder()
 
         if (mode.trim().toLowerCase() == MODE_NORMAL) {
-            json = jsonBuilder.buildNormal(infos)
+            json = jsonBuilder.buildNormal(infos.infos)
         } else if (mode.trim().toLowerCase() == MODE_ELEMENTS) {
             json = jsonBuilder.buildWithElements(infos)
         } else if (mode.trim().toLowerCase() == MODE_PROVINCES) {
@@ -59,7 +59,9 @@ class Runner {
         } else {
             throw new IllegalArgumentException("unknown mode: $mode")
         }
-        def infos = buildInfos(infile)
+        def infoRows = buildInfos(infile)
+        def infos = new Infos()
+        infos.populate(infoRows)
         generateJson(mode, infos, outfile)
     }
 

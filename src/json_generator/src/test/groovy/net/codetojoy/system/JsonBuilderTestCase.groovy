@@ -67,8 +67,10 @@ class JsonBuilderTestCase {
         def info = new Info(name: name, zodiac: zodiac,
                             province: province, riding: riding,
                            party: party, source: source)
-	def infos = []
-	infos << info
+	def infoRows = []
+	infoRows << info
+	def infos = new Infos()
+	infos.populate(infoRows)
 
 	// test
 	def result = jsonBuilder.buildWithElements(infos)
