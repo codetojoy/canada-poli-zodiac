@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  background-color: black;
+}
+
+a,
+label {
+  color: white;
+  font-size: 1.2rem;
+}
+
+h1 {
+  color: #f3f4a7;
+  font-size: 1.8rem;
+}
+
+p {
+  color: #f3f4a7;
+  font-size: 1.6rem;
+}
+
+.mode-controls {
+  display: inline-block;
+}
+
+.info-link a {
+  font-size: 1rem;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* begin: original D3 gist */
+
+.node {
+  cursor: pointer;
+}
+
+.node:hover {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.node--leaf {
+  fill: white;
+}
+
+.label {
+  font: 1.8rem "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-anchor: middle;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+
+.label-small {
+  font: 1.3rem "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-anchor: middle;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+
+.label-tiny {
+  font: 1.1rem "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-anchor: middle;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+
+.label,
+.node--root,
+.node--leaf {
+  pointer-events: none;
+}
+
+/* end: original D3 gist */
+
+/*
+  -------------------- layout
+*/
+
+/*
+  ----------- default is mobile view
+*/
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 50px 10px 1200px 10px 50px;
+  grid-template-areas:
+    "header header header header"
+    ". . . ."
+    "content content content content"
+    ". . . ."
+    ". footer footer .";
+}
+
+.header {
+  grid-area: header;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  grid-area: content;
+  align-items: center;
+}
+
+.footer {
+  grid-area: footer;
+  font-size: 0.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer p {
+  font-size: 0.7rem;
+}
+
+svg {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+/*
+    is min-width >= 40rem ? i.e. desktop, not mobile
+*/
+@media (min-width: 70rem) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 5px 5px 800px 20px 50px;
+    grid-template-areas:
+      "header header header header"
+      ". . . ."
+      "content content content content"
+      ". . . ."
+      ". footer footer .";
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    grid-area: content;
+  }
+
+  .footer p {
+    color: #f3f4a7;
+    font-size: 0.7rem;
+  }
+
+  p,
+  label {
+    color: #f3f4a7;
+    font-size: 1.2rem;
+  }
+
+  h1 {
+    color: #f3f4a7;
+    font-size: 1.6rem;
+  }
+}
