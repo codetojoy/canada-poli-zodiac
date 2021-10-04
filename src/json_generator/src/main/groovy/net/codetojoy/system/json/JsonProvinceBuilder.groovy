@@ -34,7 +34,6 @@ class JsonProvinceBuilder extends BaseBuilder {
     def buildChildrenWithProvince(def infos, def province, def doIncludeUnknown = false) {
         def children = []
         def provinces = new Provinces()
-        println "TRACER cp 1 JPB hello ${province}"
         Signs.DISPLAY_SIGNS.each { sign ->
             if ((doIncludeUnknown) || sign != Signs.UNKNOWN_DISPLAY_SIGN) {
                 def childrenForSign = buildChildrenForProvince(infos, province, sign)
@@ -49,7 +48,7 @@ class JsonProvinceBuilder extends BaseBuilder {
         return children
     }
 
-    def buildWithProvinces(def infos) {
+    def buildWithProvinces(def infos, def locale) {
         def abChildren = buildChildrenWithProvince(infos.infoMap[Provinces.AB], Provinces.AB)
         def bcChildren = buildChildrenWithProvince(infos.infoMap[Provinces.BC], Provinces.BC)
         def mbChildren = buildChildrenWithProvince(infos.infoMap[Provinces.MB], Provinces.MB)
@@ -71,18 +70,18 @@ class JsonProvinceBuilder extends BaseBuilder {
 
         def jsonMap = [
             "name" : "zodiac", "children" : [
-                ["name": Provinces.AB, "children" : abChildren],
-                ["name": Provinces.BC, "children" : bcChildren],
-                ["name": Provinces.MB, "children" : mbChildren],
-                ["name": Provinces.NB, "children" : nbChildren],
-                ["name": Provinces.NL_DISPLAY, "children" : nlChildren],
-                ["name": Provinces.NS, "children" : nsChildren],
+                ["name": locale.get(Provinces.AB_DISPLAY), "children" : abChildren],
+                ["name": locale.get(Provinces.BC_DISPLAY), "children" : bcChildren],
+                ["name": locale.get(Provinces.MB_DISPLAY), "children" : mbChildren],
+                ["name": locale.get(Provinces.NB_DISPLAY), "children" : nbChildren],
+                ["name": locale.get(Provinces.NL_DISPLAY), "children" : nlChildren],
+                ["name": locale.get(Provinces.NS_DISPLAY), "children" : nsChildren],
                 // ["name": Provinces.NU, "children" : nuChildren],
-                ["name": Provinces.NWT_DISPLAY, "children" : ntChildren],
-                ["name": Provinces.ON, "children" : onChildren],
-                ["name": Provinces.PEI_DISPLAY, "children" : peiChildren],
-                ["name": Provinces.QC, "children" : qcChildren],
-                ["name": Provinces.SK, "children" : skChildren],
+                ["name": locale.get(Provinces.NWT_DISPLAY), "children" : ntChildren],
+                ["name": locale.get(Provinces.ON_DISPLAY), "children" : onChildren],
+                ["name": locale.get(Provinces.PEI_DISPLAY), "children" : peiChildren],
+                ["name": locale.get(Provinces.QC_DISPLAY), "children" : qcChildren],
+                ["name": locale.get(Provinces.SK_DISPLAY), "children" : skChildren],
                 // ["name": Provinces.YT, "children" : ytChildren],
             ]
         ]

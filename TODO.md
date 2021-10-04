@@ -10,15 +10,15 @@
 ### viz
 
 * font sizes
-* French support
-* decide on display text for provinces
+* x - French support
+* x - decide on display text for provinces
 * how to give hint over label?
-* util to confirm names.csv 
+* x - util to confirm names.csv 
 * better colour contrast for CPC and BQ
 
 ### generator
 
-* tbd
+* validate CSV against all JSON
 
 ### data
 

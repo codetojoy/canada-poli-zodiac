@@ -42,9 +42,9 @@ class Runner {
         } else if (mode.trim().toLowerCase() == MODE_ELEMENTS) {
             json = new JsonElementBuilder().buildWithElements(infos, locale)
         } else if (mode.trim().toLowerCase() == MODE_PROVINCES) {
-            json = new JsonProvinceBuilder().buildWithProvinces(infos)
+            json = new JsonProvinceBuilder().buildWithProvinces(infos, locale)
         } else if (mode.trim().toLowerCase() == MODE_UNKNOWN) {
-            json = new JsonUnknownBuilder().buildForUnknown(infos)
+            json = new JsonUnknownBuilder().buildForUnknown(infos, locale)
         } else {
             throw new IllegalStateException("internal error")
         }

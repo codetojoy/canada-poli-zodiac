@@ -31,7 +31,7 @@ class JsonUnknownBuilderTestCase {
 	def locale = new Locale("en")
 
 	// test
-	def result = jsonUnknownBuilder.buildForUnknown(infos)
+	def result = jsonUnknownBuilder.buildForUnknown(infos, locale)
 
 	println "TRACER JUB english"
 	println result
@@ -58,18 +58,18 @@ class JsonUnknownBuilderTestCase {
         def skNode = topLevelChildren[i++]
 	def ytNode = topLevelChildren[i++]
 
-        assertEquals(abNode["name"], Provinces.AB)
-        assertEquals(bcNode["name"], Provinces.BC)
-        assertEquals(mbNode["name"], Provinces.MB)
-        assertEquals(nbNode["name"], Provinces.NB)
-        assertEquals(nlNode["name"], Provinces.NL_DISPLAY)
-        assertEquals(nsNode["name"], Provinces.NS)
+        assertEquals(abNode["name"], locale.get(Provinces.AB_DISPLAY))
+        assertEquals(bcNode["name"], locale.get(Provinces.BC_DISPLAY))
+        assertEquals(mbNode["name"], locale.get(Provinces.MB_DISPLAY))
+        assertEquals(nbNode["name"], locale.get(Provinces.NB_DISPLAY))
+        assertEquals(nlNode["name"], locale.get(Provinces.NL_DISPLAY))
+        assertEquals(nsNode["name"], locale.get(Provinces.NS_DISPLAY))
         // assertEquals(ntNode["name"], Provinces.NWT_DISPLAY)
-        assertEquals(nuNode["name"], Provinces.NU)
-        assertEquals(onNode["name"], Provinces.ON)
+        assertEquals(nuNode["name"], locale.get(Provinces.NU_DISPLAY))
+        assertEquals(onNode["name"], locale.get(Provinces.ON_DISPLAY))
         // assertEquals(peiNode["name"], Provinces.PEI_DISPLAY)
-        assertEquals(qcNode["name"], Provinces.QC)
-        assertEquals(ytNode["name"], Provinces.YT)
+        assertEquals(qcNode["name"], locale.get(Provinces.QC_DISPLAY))
+        assertEquals(ytNode["name"], locale.get(Provinces.YT_DISPLAY))
 
         assertTrue(abNode["children"].isEmpty())
         assertTrue(bcNode["children"].isEmpty())

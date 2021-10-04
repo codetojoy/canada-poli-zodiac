@@ -31,7 +31,7 @@ class JsonProvinceBuilderTestCase {
         def locale = new Locale("en")
 
         // test
-        def result = jsonProvinceBuilder.buildWithProvinces(infos)
+        def result = jsonProvinceBuilder.buildWithProvinces(infos, locale)
 
         println "TRACER JPB english"
         println result
@@ -57,17 +57,17 @@ class JsonProvinceBuilderTestCase {
         def qcNode = topLevelChildren[i++]
         def skNode = topLevelChildren[i++]
 
-        assertEquals(abNode["name"], Provinces.AB)
-        assertEquals(bcNode["name"], Provinces.BC)
-        assertEquals(mbNode["name"], Provinces.MB)
-        assertEquals(nbNode["name"], Provinces.NB)
-        assertEquals(nlNode["name"], Provinces.NL_DISPLAY)
-        assertEquals(nsNode["name"], Provinces.NS)
-        assertEquals(ntNode["name"], Provinces.NWT_DISPLAY)
-        assertEquals(onNode["name"], Provinces.ON)
-        assertEquals(peiNode["name"], Provinces.PEI_DISPLAY)
-        assertEquals(qcNode["name"], Provinces.QC)
-        assertEquals(skNode["name"], Provinces.SK)
+        assertEquals(abNode["name"], locale.get(Provinces.AB_DISPLAY))
+        assertEquals(bcNode["name"], locale.get(Provinces.BC_DISPLAY))
+        assertEquals(mbNode["name"], locale.get(Provinces.MB_DISPLAY))
+        assertEquals(nbNode["name"], locale.get(Provinces.NB_DISPLAY))
+        assertEquals(nlNode["name"], locale.get(Provinces.NL_DISPLAY))
+        assertEquals(nsNode["name"], locale.get(Provinces.NS_DISPLAY))
+        assertEquals(ntNode["name"], locale.get(Provinces.NWT_DISPLAY))
+        assertEquals(onNode["name"], locale.get(Provinces.ON_DISPLAY))
+        assertEquals(peiNode["name"], locale.get(Provinces.PEI_DISPLAY))
+        assertEquals(qcNode["name"], locale.get(Provinces.QC_DISPLAY))
+        assertEquals(skNode["name"], locale.get(Provinces.SK_DISPLAY))
 
         abNode["children"].each { child -> assertUnknownChild(child) }
         bcNode["children"].each { child -> assertUnknownChild(child) }

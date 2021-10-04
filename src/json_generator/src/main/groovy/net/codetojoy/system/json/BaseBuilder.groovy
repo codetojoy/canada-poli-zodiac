@@ -47,7 +47,7 @@ abstract class BaseBuilder {
     }
 
     def validateProvince(def party) {
-        assert Provinces.PROVINCES.contains(party)
+        assert Provinces.DATA_PROVINCES.contains(party)
     }
 
     def validate(def info) {

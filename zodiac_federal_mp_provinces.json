@@ -2,7 +2,7 @@
     "name": "zodiac",
     "children": [
         {
-            "name": "Alb.",
+            "name": "Alta.",
             "children": [
                 {
                     "name": "Taurus",
@@ -162,7 +162,7 @@
             ]
         },
         {
-            "name": "C.-B.",
+            "name": "B.C.",
             "children": [
                 {
                     "name": "Aries",
@@ -412,7 +412,7 @@
             ]
         },
         {
-            "name": "N.-B.",
+            "name": "N.B.",
             "children": [
                 {
                     "name": "Aries",
@@ -477,7 +477,7 @@
             ]
         },
         {
-            "name": "T.-N.-L.",
+            "name": "N.L.",
             "children": [
                 {
                     "name": "Gemini",
@@ -522,7 +522,7 @@
             ]
         },
         {
-            "name": "N.-\u00c9.",
+            "name": "N.S.",
             "children": [
                 {
                     "name": "Gemini",
@@ -582,7 +582,7 @@
             ]
         },
         {
-            "name": "T.N.-O.",
+            "name": "N.W.T.",
             "children": [
                 {
                     "name": "Virgo",
@@ -1042,7 +1042,7 @@
             ]
         },
         {
-            "name": "\u00ce.-P.-\u00c9.",
+            "name": "P.E.I.",
             "children": [
                 {
                     "name": "Taurus",
@@ -1082,7 +1082,7 @@
             ]
         },
         {
-            "name": "Qc",
+            "name": "Que.",
             "children": [
                 {
                     "name": "Aries",

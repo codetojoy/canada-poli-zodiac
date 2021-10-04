@@ -21,55 +21,6 @@ import groovy.json.*
 */
 
 class JsonBuilder extends BaseBuilder {
-    /*
-    static final def NAME = "name"
-    static final def PARTY = "party"
-    static final def SIZE = "size"
-    static final def UNKNOWN_SIGN = "unknown"
-    static final def CHILDREN = "children"
-    static final def ZODIAC = "zodiac"
-
-    static final def NONE = "None identified (yet)"
-    static final def DEFAULT_SIZE = 1000
-
-    def getSizeForSign(def infos, def sign) {
-        def result = DEFAULT_SIZE
-        def count = infos.findAll{ it.zodiac == sign}.size()
-        result = result / count
-        return result
-    }
-
-    def buildUnknown() {
-        return ["$NAME": NONE, "$PARTY": UNKNOWN_SIGN, "$SIZE": DEFAULT_SIZE]
-    }
-
-    def validateSign(def info) {
-        def sign = info.zodiac
-        def source = info.source
-        if (! sign.isEmpty()) {
-            assert Signs.DATA_SIGNS.contains(sign.toLowerCase())
-            if (sign != Signs.UNKNOWN_DATA_SIGN) {
-                // System.err.println "INTERNAL ERROR: no source name: ${info.name} sign: ${sign}"
-                assert Sources.SOURCES.contains(source)
-            }
-        }
-    }
-
-    def validateParty(def party) {
-        assert Parties.PARTIES.contains(party)
-    }
-
-    def validateProvince(def party) {
-        assert Provinces.PROVINCES.contains(party)
-    }
-
-    def validate(def info) {
-        validateSign(info)
-        validateParty(info.party)
-        validateProvince(info.province)
-    }
-    */
-
 
     def buildChildren(def infos, def locale) {
         def children = []
