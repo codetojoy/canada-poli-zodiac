@@ -9,9 +9,9 @@
 
 ### viz
 
-* split unknown into groups ... by letter?
+* font sizes
 * French support
-* decide on display for provinces
+* decide on display text for provinces
 * how to give hint over label?
 * util to confirm names.csv 
 * better colour contrast for CPC and BQ
