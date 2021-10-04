@@ -12,9 +12,9 @@
 * font sizes
 * x - French support
 * x - decide on display text for provinces
-* how to give hint over label?
+* y - how to give hint over label?
 * x - util to confirm names.csv 
-* better colour contrast for CPC and BQ
+* x - better colour contrast for CPC and BQ
 
 ### generator
 
