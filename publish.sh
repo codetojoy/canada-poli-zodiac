@@ -7,11 +7,12 @@ groovy VersionInfo.groovy
 
 cd ./federal-mp
 mv tmp.index.html index.html 
-cd ../..
+mv tmp.index_fr.html index_fr.html 
+cd ..
 
 git add -u . 
 git add ./federal-mp
-git commit -m "incremental refresh"
-git push origin gh-pages
+# git commit -m "incremental refresh"
+# git push origin gh-pages
 
 echo "Ready."
