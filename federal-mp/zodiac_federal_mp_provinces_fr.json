@@ -1,0 +1,1405 @@
+{
+    "name": "zodiac",
+    "children": [
+        {
+            "name": "Alberta",
+            "children": [
+                {
+                    "name": "Taurus",
+                    "children": [
+                        {
+                            "name": "Heather McPherson",
+                            "party": "NDP",
+                            "size": 29.4117647059
+                        },
+                        {
+                            "name": "Martin Shields",
+                            "party": "Conservative",
+                            "size": 29.4117647059
+                        },
+                        {
+                            "name": "Arnold Viersen",
+                            "party": "Conservative",
+                            "size": 29.4117647059
+                        }
+                    ]
+                },
+                {
+                    "name": "Gemini",
+                    "children": [
+                        {
+                            "name": "Hon. Mike Lake",
+                            "party": "Conservative",
+                            "size": 29.4117647059
+                        }
+                    ]
+                },
+                {
+                    "name": "Cancer",
+                    "children": [
+                        {
+                            "name": "Randy Boissonnault",
+                            "party": "Liberal",
+                            "size": 29.4117647059
+                        },
+                        {
+                            "name": "Earl Dreeshen",
+                            "party": "Conservative",
+                            "size": 29.4117647059
+                        },
+                        {
+                            "name": "Kelly McCauley",
+                            "party": "Conservative",
+                            "size": 29.4117647059
+                        }
+                    ]
+                },
+                {
+                    "name": "Leo",
+                    "children": [
+                        {
+                            "name": "Tom Kmiec",
+                            "party": "Conservative",
+                            "size": 29.4117647059
+                        }
+                    ]
+                },
+                {
+                    "name": "Libra",
+                    "children": [
+                        {
+                            "name": "John Barlow",
+                            "party": "Conservative",
+                            "size": 29.4117647059
+                        },
+                        {
+                            "name": "Ron Liepert",
+                            "party": "Conservative",
+                            "size": 29.4117647059
+                        }
+                    ]
+                },
+                {
+                    "name": "Scorpio",
+                    "children": [
+                        {
+                            "name": "Blake Richards",
+                            "party": "Conservative",
+                            "size": 29.4117647059
+                        },
+                        {
+                            "name": "Hon. Tim Uppal",
+                            "party": "Conservative",
+                            "size": 29.4117647059
+                        },
+                        {
+                            "name": "Chris Warkentin",
+                            "party": "Conservative",
+                            "size": 29.4117647059
+                        },
+                        {
+                            "name": "Len Webber",
+                            "party": "Conservative",
+                            "size": 29.4117647059
+                        }
+                    ]
+                },
+                {
+                    "name": "Sagittarius",
+                    "children": [
+                        {
+                            "name": "Shannon Stubbs",
+                            "party": "Conservative",
+                            "size": 29.4117647059
+                        }
+                    ]
+                },
+                {
+                    "name": "Capricorn",
+                    "children": [
+                        {
+                            "name": "Blaine Calkins",
+                            "party": "Conservative",
+                            "size": 29.4117647059
+                        }
+                    ]
+                },
+                {
+                    "name": "Aquarius",
+                    "children": [
+                        {
+                            "name": "Garnett Genuis",
+                            "party": "Conservative",
+                            "size": 29.4117647059
+                        },
+                        {
+                            "name": "Dane Lloyd",
+                            "party": "Conservative",
+                            "size": 29.4117647059
+                        },
+                        {
+                            "name": "Hon. Michelle Rempel Garner",
+                            "party": "Conservative",
+                            "size": 29.4117647059
+                        }
+                    ]
+                },
+                {
+                    "name": "Pisces",
+                    "children": [
+                        {
+                            "name": "Bob Benzen",
+                            "party": "Conservative",
+                            "size": 29.4117647059
+                        },
+                        {
+                            "name": "Michael Cooper",
+                            "party": "Conservative",
+                            "size": 29.4117647059
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "British Columbia",
+            "children": [
+                {
+                    "name": "Aries",
+                    "children": [
+                        {
+                            "name": "Terry Beech",
+                            "party": "Liberal",
+                            "size": 23.8095238095
+                        },
+                        {
+                            "name": "Richard Cannings",
+                            "party": "NDP",
+                            "size": 23.8095238095
+                        },
+                        {
+                            "name": "Peter Julian",
+                            "party": "NDP",
+                            "size": 23.8095238095
+                        },
+                        {
+                            "name": "Mark Strahl",
+                            "party": "Conservative",
+                            "size": 23.8095238095
+                        }
+                    ]
+                },
+                {
+                    "name": "Taurus",
+                    "children": [
+                        {
+                            "name": "Laurel Collins",
+                            "party": "NDP",
+                            "size": 23.8095238095
+                        },
+                        {
+                            "name": "Rob Morrison",
+                            "party": "Conservative",
+                            "size": 23.8095238095
+                        },
+                        {
+                            "name": "Patrick Weiler",
+                            "party": "Liberal",
+                            "size": 23.8095238095
+                        }
+                    ]
+                },
+                {
+                    "name": "Gemini",
+                    "children": [
+                        {
+                            "name": "Marc Dalton",
+                            "party": "Conservative",
+                            "size": 23.8095238095
+                        },
+                        {
+                            "name": "Hon. Ed Fast",
+                            "party": "Conservative",
+                            "size": 23.8095238095
+                        },
+                        {
+                            "name": "Elizabeth May",
+                            "party": "Green Party",
+                            "size": 23.8095238095
+                        },
+                        {
+                            "name": "Hon. Jonathan Wilkinson",
+                            "party": "Liberal",
+                            "size": 23.8095238095
+                        }
+                    ]
+                },
+                {
+                    "name": "Cancer",
+                    "children": [
+                        {
+                            "name": "Hon. Joyce Murray",
+                            "party": "Liberal",
+                            "size": 23.8095238095
+                        }
+                    ]
+                },
+                {
+                    "name": "Leo",
+                    "children": [
+                        {
+                            "name": "Hon. Hedy Fry",
+                            "party": "Liberal",
+                            "size": 23.8095238095
+                        },
+                        {
+                            "name": "Ron McKinnon",
+                            "party": "Liberal",
+                            "size": 23.8095238095
+                        }
+                    ]
+                },
+                {
+                    "name": "Virgo",
+                    "children": [
+                        {
+                            "name": "Hon. Harjit S. Sajjan",
+                            "party": "Liberal",
+                            "size": 23.8095238095
+                        }
+                    ]
+                },
+                {
+                    "name": "Libra",
+                    "children": [
+                        {
+                            "name": "Sukh Dhaliwal",
+                            "party": "Liberal",
+                            "size": 23.8095238095
+                        },
+                        {
+                            "name": "Hon. Carla Qualtrough",
+                            "party": "Liberal",
+                            "size": 23.8095238095
+                        },
+                        {
+                            "name": "Bob Zimmer",
+                            "party": "Conservative",
+                            "size": 23.8095238095
+                        }
+                    ]
+                },
+                {
+                    "name": "Sagittarius",
+                    "children": [
+                        {
+                            "name": "Dan Albas",
+                            "party": "Conservative",
+                            "size": 23.8095238095
+                        },
+                        {
+                            "name": "Gord Johns",
+                            "party": "NDP",
+                            "size": 23.8095238095
+                        }
+                    ]
+                },
+                {
+                    "name": "Capricorn",
+                    "children": [
+                        {
+                            "name": "Don Davies",
+                            "party": "NDP",
+                            "size": 23.8095238095
+                        },
+                        {
+                            "name": "Jagmeet Singh",
+                            "party": "NDP",
+                            "size": 23.8095238095
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Manitoba",
+            "children": [
+                {
+                    "name": "Aries",
+                    "children": [
+                        {
+                            "name": "Raquel Dancho",
+                            "party": "Conservative",
+                            "size": 71.4285714286
+                        },
+                        {
+                            "name": "Marty Morantz",
+                            "party": "Conservative",
+                            "size": 71.4285714286
+                        },
+                        {
+                            "name": "Hon. Dan Vandal",
+                            "party": "Liberal",
+                            "size": 71.4285714286
+                        }
+                    ]
+                },
+                {
+                    "name": "Taurus",
+                    "children": [
+                        {
+                            "name": "James Bezan",
+                            "party": "Conservative",
+                            "size": 71.4285714286
+                        }
+                    ]
+                },
+                {
+                    "name": "Gemini",
+                    "children": [
+                        {
+                            "name": "Ted Falk",
+                            "party": "Conservative",
+                            "size": 71.4285714286
+                        },
+                        {
+                            "name": "Larry Maguire",
+                            "party": "Conservative",
+                            "size": 71.4285714286
+                        }
+                    ]
+                },
+                {
+                    "name": "Virgo",
+                    "children": [
+                        {
+                            "name": "Niki Ashton",
+                            "party": "NDP",
+                            "size": 71.4285714286
+                        }
+                    ]
+                },
+                {
+                    "name": "Libra",
+                    "children": [
+                        {
+                            "name": "Hon. Candice Bergen",
+                            "party": "Conservative",
+                            "size": 71.4285714286
+                        },
+                        {
+                            "name": "Hon. Jim Carr",
+                            "party": "Liberal",
+                            "size": 71.4285714286
+                        }
+                    ]
+                },
+                {
+                    "name": "Aquarius",
+                    "children": [
+                        {
+                            "name": "Kevin Lamoureux",
+                            "party": "Liberal",
+                            "size": 71.4285714286
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "New Brunswick",
+            "children": [
+                {
+                    "name": "Aries",
+                    "children": [
+                        {
+                            "name": "Wayne Long",
+                            "party": "Liberal",
+                            "size": 100
+                        }
+                    ]
+                },
+                {
+                    "name": "Taurus",
+                    "children": [
+                        {
+                            "name": "Hon. Rob Moore",
+                            "party": "Conservative",
+                            "size": 100
+                        }
+                    ]
+                },
+                {
+                    "name": "Sagittarius",
+                    "children": [
+                        {
+                            "name": "Hon. Dominic LeBlanc",
+                            "party": "Liberal",
+                            "size": 100
+                        }
+                    ]
+                },
+                {
+                    "name": "Capricorn",
+                    "children": [
+                        {
+                            "name": "Jenica Atwin",
+                            "party": "Liberal",
+                            "size": 100
+                        }
+                    ]
+                },
+                {
+                    "name": "Aquarius",
+                    "children": [
+                        {
+                            "name": "John Williamson",
+                            "party": "Conservative",
+                            "size": 100
+                        }
+                    ]
+                },
+                {
+                    "name": "Pisces",
+                    "children": [
+                        {
+                            "name": "Jake Stewart",
+                            "party": "Conservative",
+                            "size": 100
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "N.L.",
+            "children": [
+                {
+                    "name": "Gemini",
+                    "children": [
+                        {
+                            "name": "Churence Rogers",
+                            "party": "Liberal",
+                            "size": 142.8571428571
+                        }
+                    ]
+                },
+                {
+                    "name": "Virgo",
+                    "children": [
+                        {
+                            "name": "Gudie Hutchings",
+                            "party": "Liberal",
+                            "size": 142.8571428571
+                        }
+                    ]
+                },
+                {
+                    "name": "Aquarius",
+                    "children": [
+                        {
+                            "name": "Hon. Seamus O'Regan",
+                            "party": "Liberal",
+                            "size": 142.8571428571
+                        }
+                    ]
+                },
+                {
+                    "name": "Pisces",
+                    "children": [
+                        {
+                            "name": "Yvonne Jones",
+                            "party": "Liberal",
+                            "size": 142.8571428571
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Nova Scotia",
+            "children": [
+                {
+                    "name": "Gemini",
+                    "children": [
+                        {
+                            "name": "Sean Fraser",
+                            "party": "Liberal",
+                            "size": 90.9090909091
+                        }
+                    ]
+                },
+                {
+                    "name": "Virgo",
+                    "children": [
+                        {
+                            "name": "Mike Kelloway",
+                            "party": "Liberal",
+                            "size": 90.9090909091
+                        }
+                    ]
+                },
+                {
+                    "name": "Libra",
+                    "children": [
+                        {
+                            "name": "Darrell Samson",
+                            "party": "Liberal",
+                            "size": 90.9090909091
+                        }
+                    ]
+                },
+                {
+                    "name": "Scorpio",
+                    "children": [
+                        {
+                            "name": "Chris d'Entremont",
+                            "party": "Conservative",
+                            "size": 90.9090909091
+                        }
+                    ]
+                },
+                {
+                    "name": "Capricorn",
+                    "children": [
+                        {
+                            "name": "Kody Blois",
+                            "party": "Liberal",
+                            "size": 90.9090909091
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "N.W.T.",
+            "children": [
+                {
+                    "name": "Virgo",
+                    "children": [
+                        {
+                            "name": "Michael McLeod",
+                            "party": "Liberal",
+                            "size": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ontario",
+            "children": [
+                {
+                    "name": "Aries",
+                    "children": [
+                        {
+                            "name": "Colin Carrie",
+                            "party": "Conservative",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Hon. Bardish Chagger",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Julie Dabrusin",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Melissa Lantsman",
+                            "party": "Conservative",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Hon. John McKay",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Eric Melillo",
+                            "party": "Conservative",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Tony Van Bynen",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        }
+                    ]
+                },
+                {
+                    "name": "Taurus",
+                    "children": [
+                        {
+                            "name": "John Brassard",
+                            "party": "Conservative",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Ali Ehsassi",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Peter Fragiskatos",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Hon. Anthony Rota",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        }
+                    ]
+                },
+                {
+                    "name": "Gemini",
+                    "children": [
+                        {
+                            "name": "Dave Epp",
+                            "party": "Conservative",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Nathaniel Erskine-Smith",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Cheryl Gallant",
+                            "party": "Conservative",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Mark Gerretsen",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Dave MacKenzie",
+                            "party": "Conservative",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Robert Oliphant",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Hon. Pierre Poilievre",
+                            "party": "Conservative",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Doug Shipley",
+                            "party": "Conservative",
+                            "size": 8.2644628099
+                        }
+                    ]
+                },
+                {
+                    "name": "Cancer",
+                    "children": [
+                        {
+                            "name": "Iqwinder Gaheer",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Hon. Karina Gould",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "James Maloney",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Brian Masse",
+                            "party": "NDP",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Michael Morrice",
+                            "party": "Green Party",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Ruby Sahota",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Ryan Turnbull",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        }
+                    ]
+                },
+                {
+                    "name": "Leo",
+                    "children": [
+                        {
+                            "name": "Hon. Chrystia Freeland",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Marci Ien",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Hon. Marco Mendicino",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Kyle Seeback",
+                            "party": "Conservative",
+                            "size": 8.2644628099
+                        }
+                    ]
+                },
+                {
+                    "name": "Virgo",
+                    "children": [
+                        {
+                            "name": "Shaun Chen",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Matthew Green",
+                            "party": "NDP",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Ben Lobb",
+                            "party": "Conservative",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Bryan May",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        }
+                    ]
+                },
+                {
+                    "name": "Libra",
+                    "children": [
+                        {
+                            "name": "Vance Badawey",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Hon. Bill Blair",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Francis Drouin",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Peter Fonseca",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Hon. Mark Holland",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Lloyd Longfield",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Sven Spengemann",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        }
+                    ]
+                },
+                {
+                    "name": "Scorpio",
+                    "children": [
+                        {
+                            "name": "Hon. Omar Alghabra",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Charlie Angus",
+                            "party": "NDP",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Hon. Michael Chong",
+                            "party": "Conservative",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Eric Duncan",
+                            "party": "Conservative",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Hon. Kirsty Duncan",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Hon. Patty Hajdu",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Helena Jaczek",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Majid Jowhari",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Iqra Khalid",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        }
+                    ]
+                },
+                {
+                    "name": "Sagittarius",
+                    "children": [
+                        {
+                            "name": "Yvan Baker",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Hon. Carolyn Bennett",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Carol Hughes",
+                            "party": "NDP",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Leslyn Lewis",
+                            "party": "Conservative",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Hon. Mary Ng",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Hon. Judy A. Sgro",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Anita Vandenbeld",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Arif Virani",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        }
+                    ]
+                },
+                {
+                    "name": "Capricorn",
+                    "children": [
+                        {
+                            "name": "Julie Dzerowicz",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Irek Kusmierczyk",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Dan Muys",
+                            "party": "Conservative",
+                            "size": 8.2644628099
+                        }
+                    ]
+                },
+                {
+                    "name": "Aquarius",
+                    "children": [
+                        {
+                            "name": "Dean Allison",
+                            "party": "Conservative",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Chris Bittle",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Kamal Khera",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Yasir Naqvi",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Hon. Erin O'Toole",
+                            "party": "Conservative",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Marcus Powlowski",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Scott Reid",
+                            "party": "Conservative",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Marc Serr\u00e9",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Jenna Sudds",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Adam van Koeverden",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        }
+                    ]
+                },
+                {
+                    "name": "Pisces",
+                    "children": [
+                        {
+                            "name": "Hon. David McGuinty",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Ya'ara Saks",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Francesco Sorbara",
+                            "party": "Liberal",
+                            "size": 8.2644628099
+                        },
+                        {
+                            "name": "Karen Vecchio",
+                            "party": "Conservative",
+                            "size": 8.2644628099
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "P.E.I.",
+            "children": [
+                {
+                    "name": "Taurus",
+                    "children": [
+                        {
+                            "name": "Sean Casey",
+                            "party": "Liberal",
+                            "size": 250
+                        },
+                        {
+                            "name": "Heath MacDonald",
+                            "party": "Liberal",
+                            "size": 250
+                        }
+                    ]
+                },
+                {
+                    "name": "Virgo",
+                    "children": [
+                        {
+                            "name": "Hon. Lawrence MacAulay",
+                            "party": "Liberal",
+                            "size": 250
+                        }
+                    ]
+                },
+                {
+                    "name": "Scorpio",
+                    "children": [
+                        {
+                            "name": "Robert Morrissey",
+                            "party": "Liberal",
+                            "size": 250
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Quebec",
+            "children": [
+                {
+                    "name": "Aries",
+                    "children": [
+                        {
+                            "name": "Hon. Marie-Claude Bibeau",
+                            "party": "Liberal",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Yves-Fran\u00e7ois Blanchet",
+                            "party": "Bloc Qu\u00e9b\u00e9cois",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Richard Martel",
+                            "party": "Conservative",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Sherry Romanado",
+                            "party": "Liberal",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Peter Schiefke",
+                            "party": "Liberal",
+                            "size": 12.8205128205
+                        }
+                    ]
+                },
+                {
+                    "name": "Taurus",
+                    "children": [
+                        {
+                            "name": "Rachel Bendayan",
+                            "party": "Liberal",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Fay\u00e7al El-Khoury",
+                            "party": "Liberal",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Bernard G\u00e9n\u00e9reux",
+                            "party": "Conservative",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "St\u00e9phane Lauzon",
+                            "party": "Liberal",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Christine Normandin",
+                            "party": "Bloc Qu\u00e9b\u00e9cois",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Simon-Pierre Savard-Tremblay",
+                            "party": "Bloc Qu\u00e9b\u00e9cois",
+                            "size": 12.8205128205
+                        }
+                    ]
+                },
+                {
+                    "name": "Gemini",
+                    "children": [
+                        {
+                            "name": "Alexandre Boulerice",
+                            "party": "NDP",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Greg Fergus",
+                            "party": "Liberal",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Hon. Steven Guilbeault",
+                            "party": "Liberal",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Hon. Pablo Rodriguez",
+                            "party": "Liberal",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Francis Scarpaleggia",
+                            "party": "Liberal",
+                            "size": 12.8205128205
+                        }
+                    ]
+                },
+                {
+                    "name": "Cancer",
+                    "children": [
+                        {
+                            "name": "Alexis Brunelle-Duceppe",
+                            "party": "Bloc Qu\u00e9b\u00e9cois",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Hon. Fran\u00e7ois-Philippe Champagne",
+                            "party": "Liberal",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Alain Therrien",
+                            "party": "Bloc Qu\u00e9b\u00e9cois",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Denis Trudel",
+                            "party": "Bloc Qu\u00e9b\u00e9cois",
+                            "size": 12.8205128205
+                        }
+                    ]
+                },
+                {
+                    "name": "Leo",
+                    "children": [
+                        {
+                            "name": "G\u00e9rard Deltell",
+                            "party": "Conservative",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Hon. David Lametti",
+                            "party": "Liberal",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Louis Plamondon",
+                            "party": "Bloc Qu\u00e9b\u00e9cois",
+                            "size": 12.8205128205
+                        }
+                    ]
+                },
+                {
+                    "name": "Virgo",
+                    "children": [
+                        {
+                            "name": "Emmanuella Lambropoulos",
+                            "party": "Liberal",
+                            "size": 12.8205128205
+                        }
+                    ]
+                },
+                {
+                    "name": "Libra",
+                    "children": [
+                        {
+                            "name": "Steven MacKinnon",
+                            "party": "Liberal",
+                            "size": 12.8205128205
+                        }
+                    ]
+                },
+                {
+                    "name": "Scorpio",
+                    "children": [
+                        {
+                            "name": "Xavier Barsalou-Duval",
+                            "party": "Bloc Qu\u00e9b\u00e9cois",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Alexandra Mend\u00e8s",
+                            "party": "Liberal",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Pierre Paul-Hus",
+                            "party": "Conservative",
+                            "size": 12.8205128205
+                        }
+                    ]
+                },
+                {
+                    "name": "Sagittarius",
+                    "children": [
+                        {
+                            "name": "Claude DeBellefeuille",
+                            "party": "Bloc Qu\u00e9b\u00e9cois",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Alain Rayes",
+                            "party": "Conservative",
+                            "size": 12.8205128205
+                        }
+                    ]
+                },
+                {
+                    "name": "Capricorn",
+                    "children": [
+                        {
+                            "name": "Emmanuel Dubourg",
+                            "party": "Liberal",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Hon. M\u00e9lanie Joly",
+                            "party": "Liberal",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Right Hon. Justin Trudeau",
+                            "party": "Liberal",
+                            "size": 12.8205128205
+                        }
+                    ]
+                },
+                {
+                    "name": "Aquarius",
+                    "children": [
+                        {
+                            "name": "Mario Beaulieu",
+                            "party": "Bloc Qu\u00e9b\u00e9cois",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "St\u00e9phane Bergeron",
+                            "party": "Bloc Qu\u00e9b\u00e9cois",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Jacques Gourde",
+                            "party": "Conservative",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Anthony Housefather",
+                            "party": "Liberal",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Hon. Diane Lebouthillier",
+                            "party": "Liberal",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Jo\u00ebl Lightbound",
+                            "party": "Liberal",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Luc Th\u00e9riault",
+                            "party": "Bloc Qu\u00e9b\u00e9cois",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Dominique Vien",
+                            "party": "Conservative",
+                            "size": 12.8205128205
+                        }
+                    ]
+                },
+                {
+                    "name": "Pisces",
+                    "children": [
+                        {
+                            "name": "Hon. Marc Garneau",
+                            "party": "Liberal",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Jo\u00ebl Godin",
+                            "party": "Conservative",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Angelo Iacono",
+                            "party": "Liberal",
+                            "size": 12.8205128205
+                        },
+                        {
+                            "name": "Hon. Marc Miller",
+                            "party": "Liberal",
+                            "size": 12.8205128205
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Saskatchewan",
+            "children": [
+                {
+                    "name": "Taurus",
+                    "children": [
+                        {
+                            "name": "Hon. Andrew Scheer",
+                            "party": "Conservative",
+                            "size": 71.4285714286
+                        }
+                    ]
+                },
+                {
+                    "name": "Cancer",
+                    "children": [
+                        {
+                            "name": "Cathay Wagantall",
+                            "party": "Conservative",
+                            "size": 71.4285714286
+                        }
+                    ]
+                },
+                {
+                    "name": "Sagittarius",
+                    "children": [
+                        {
+                            "name": "Kelly Block",
+                            "party": "Conservative",
+                            "size": 71.4285714286
+                        },
+                        {
+                            "name": "Randy Hoback",
+                            "party": "Conservative",
+                            "size": 71.4285714286
+                        },
+                        {
+                            "name": "Michael Kram",
+                            "party": "Conservative",
+                            "size": 71.4285714286
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

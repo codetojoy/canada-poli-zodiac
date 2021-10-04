@@ -4,6 +4,12 @@ const NORMAL_JSON_FILE = "./zodiac_federal_mp.json";
 const ELEMENTS_JSON_FILE = "./zodiac_federal_mp_elements.json";
 const PROVINCES_JSON_FILE = "./zodiac_federal_mp_provinces.json";
 const UNKNOWN_JSON_FILE = "./zodiac_federal_mp_unknown.json";
+
+const NORMAL_JSON_FR_FILE = "./zodiac_federal_mp_fr.json";
+const ELEMENTS_JSON_FR_FILE = "./zodiac_federal_mp_elements_fr.json";
+const PROVINCES_JSON_FR_FILE = "./zodiac_federal_mp_provinces_fr.json";
+const UNKNOWN_JSON_FR_FILE = "./zodiac_federal_mp_unknown_fr.json";
+
 const BACKGROUND_LIGHT = "hsl(61,80%,80%)";
 const BACKGROUND_DARK = "hsl(80,30%,40%)";
 const BACKGROUND_RANGE = [BACKGROUND_LIGHT, BACKGROUND_DARK];
@@ -20,6 +26,33 @@ const NUM_SIBLINGS_FOR_SMALL_TEXT = 4;
 const NUM_CHARS_FOR_TINY_TEXT = 14;
 
 // ----------
+
+function getLocalizedJsonFile(jsonFile) {
+  let result = jsonFile;
+  const fileName = location.href.split("/").slice(-1);
+  const isFrench = fileName == "index_fr.html";
+  if (isFrench) {
+    switch (jsonFile) {
+      case NORMAL_JSON_FILE:
+        result = NORMAL_JSON_FR_FILE;
+        break;
+      case ELEMENTS_JSON_FILE:
+        result = ELEMENTS_JSON_FR_FILE;
+        break;
+      case PROVINCES_JSON_FILE:
+        result = PROVINCES_JSON_FR_FILE;
+        break;
+      case UNKNOWN_JSON_FILE:
+        result = UNKNOWN_JSON_FR_FILE;
+        break;
+      default:
+        result = jsonFile;
+        break;
+    }
+  }
+  console.log(`TRACER fileName '${fileName}' isFrench ${isFrench} jsonFile ${result}`);
+  return result;
+}
 
 function getFillColor(d) {
   let result = null;
@@ -85,10 +118,6 @@ function updateNormalMode() {
   drawCircle(NORMAL_JSON_FILE);
 }
 
-function updateElementsMode() {
-  drawCircle(ELEMENTS_JSON_FILE);
-}
-
 function drawCircle(jsonFile) {
   let svg = d3.select("#known"),
     margin = 20,
@@ -125,7 +154,7 @@ function drawCircle(jsonFile) {
     .size([diameter - margin, diameter - margin])
     .padding(2);
 
-  d3.json(jsonFile, function (error, root) {
+  d3.json(getLocalizedJsonFile(jsonFile), function (error, root) {
     if (error) throw error;
 
     root = d3
