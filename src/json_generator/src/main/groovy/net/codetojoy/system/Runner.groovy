@@ -2,6 +2,7 @@
 package net.codetojoy.system
 
 import net.codetojoy.custom.Config
+import net.codetojoy.system.json.*
 
 class Runner {
     static final def MODE_NORMAL = "normal"
@@ -33,18 +34,17 @@ class Runner {
         return infos
     }
 
-    def generateJson(def mode, def infos, def outputFile) {
+    def generateJson(def mode, def infos, def outputFile, def locale) {
         def json = null
-        def jsonBuilder = new JsonBuilder()
 
         if (mode.trim().toLowerCase() == MODE_NORMAL) {
-            json = jsonBuilder.buildNormal(infos.infos)
+            json = new JsonBuilder().buildNormal(infos.infos, locale)
         } else if (mode.trim().toLowerCase() == MODE_ELEMENTS) {
-            json = jsonBuilder.buildWithElements(infos)
+            json = new JsonElementBuilder().buildWithElements(infos, locale)
         } else if (mode.trim().toLowerCase() == MODE_PROVINCES) {
-            json = jsonBuilder.buildWithProvinces(infos)
+            json = new JsonProvinceBuilder().buildWithProvinces(infos)
         } else if (mode.trim().toLowerCase() == MODE_UNKNOWN) {
-            json = jsonBuilder.buildForUnknown(infos)
+            json = new JsonUnknownBuilder().buildForUnknown(infos)
         } else {
             throw new IllegalStateException("internal error")
         }
@@ -55,7 +55,7 @@ class Runner {
         }
     }
 
-    def run(def mode, def infile, def outfile) {
+    def run(def mode, def infile, def outfile, def locale) {
         def trimMode = mode.trim().toLowerCase()
         def modes = [MODE_NORMAL, MODE_ELEMENTS, MODE_PROVINCES, MODE_UNKNOWN]
         if (! modes.contains(trimMode)) {
@@ -64,7 +64,7 @@ class Runner {
         def infoRows = buildInfos(infile)
         def infos = new Infos()
         infos.populate(infoRows)
-        generateJson(mode, infos, outfile)
+        generateJson(mode, infos, outfile, locale)
     }
 
     def static void main(String[] args) {
@@ -77,7 +77,8 @@ class Runner {
         def infile = args[1]
         assert new File(infile).exists()
         def outfile = args[2]
+        def locale = new Locale(args[3])
 
-        new Runner().run(mode, infile, outfile)
+        new Runner().run(mode, infile, outfile, locale)
     }
 }

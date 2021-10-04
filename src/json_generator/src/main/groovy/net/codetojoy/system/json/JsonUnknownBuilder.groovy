@@ -1,24 +1,11 @@
 
 package net.codetojoy.system
 
+import net.codetojoy.system.*
+
 import groovy.json.*
 
-/*
-{
-"name": "zodiac",
-"children": [
-{
-  "name": "aries",
-  "children": [
-    { "name": "Person a-ABC", "size": 1000 },
-    { "name": "Person a-DEF", "size": 1000 },
-    { "name": "Person a-IJK", "size": 1000 },
-    { "name": "Person a-XYZ", "size": 1000 }
-  ]
-},
-*/
-
-class JsonBuilder {
+class JsonUnknownBuilder {
     static final def NAME = "name"
     static final def PARTY = "party"
     static final def SIZE = "size"
@@ -87,59 +74,20 @@ class JsonBuilder {
         return children
     }
 
-    def buildChildren(def infos) {
+/*
+    def buildChildren(def infos, def locale) {
         def children = []
         Signs.DISPLAY_SIGNS.each { sign ->
             if (Signs.UNKNOWN_DISPLAY_SIGN != sign) {
                 def childMap = [:]
-                childMap[NAME] = sign
+                childMap[NAME] = locale.get(sign)
                 childMap[CHILDREN] = buildChildrenForSign(infos, sign)
                 children << childMap
             }
         }
         return children
     }
-
-    def buildNormal(def infos) {
-        def children = buildChildren(infos)
-        def jsonMap = ["name" : "zodiac", "children" : children]
-        def json = JsonOutput.toJson(jsonMap)
-        return JsonOutput.prettyPrint(json)
-    }
-
-    // by element
-
-    def buildChildrenWithElement(def infos, def element) {
-        def children = []
-        def signs = new Signs()
-        Signs.DISPLAY_SIGNS.each { sign ->
-            if (signs.isSignInElement(sign, element)) {
-                def childMap = [:]
-                childMap[NAME] = sign
-                childMap[CHILDREN] = buildChildrenForSign(infos, sign)
-                children << childMap
-            }
-        }
-        return children
-    }
-
-    def buildWithElements(def infos) {
-        def fireChildren = buildChildrenWithElement(infos.infoMap[Signs.FIRE], Signs.FIRE)
-        def waterChildren = buildChildrenWithElement(infos.infoMap[Signs.WATER], Signs.WATER)
-        def airChildren = buildChildrenWithElement(infos.infoMap[Signs.AIR], Signs.AIR)
-        def earthChildren = buildChildrenWithElement(infos.infoMap[Signs.EARTH], Signs.EARTH)
-
-        def jsonMap = [
-            "name" : "zodiac", "children" : [
-                ["name": Signs.FIRE, "children" : fireChildren],
-                ["name": Signs.WATER, "children" : waterChildren],
-                ["name": Signs.AIR, "children" : airChildren],
-                ["name": Signs.EARTH, "children" : earthChildren],
-            ]
-        ]
-        def json = JsonOutput.toJson(jsonMap)
-        return JsonOutput.prettyPrint(json)
-    }
+*/
 
     // by province
 
@@ -184,6 +132,7 @@ class JsonBuilder {
         return children
     }
 
+/*
     def buildWithProvinces(def infos) {
         def abChildren = buildChildrenWithProvince(infos.infoMap[Provinces.AB], Provinces.AB)
         def bcChildren = buildChildrenWithProvince(infos.infoMap[Provinces.BC], Provinces.BC)
@@ -224,7 +173,7 @@ class JsonBuilder {
         def json = JsonOutput.toJson(jsonMap)
         return JsonOutput.prettyPrint(json)
     }
-
+*/
     // unknown
 
     def buildForUnknown(def infos) {
