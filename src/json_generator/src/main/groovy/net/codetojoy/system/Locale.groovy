@@ -28,6 +28,9 @@ class Locale {
         translationMap["Earth"] = "Terre"
         translationMap["Air"] = "Air"
 
+        // Abbreviations from:
+        // https://www150.statcan.gc.ca/n1/pub/92-195-x/2011001/geo/prov/tbl/tbl8-eng.htm
+
         translationMap[Provinces.AB_DISPLAY] = "Alb."
         translationMap[Provinces.BC_DISPLAY] = "C.-B."
         translationMap[Provinces.MB_DISPLAY] = "Man."

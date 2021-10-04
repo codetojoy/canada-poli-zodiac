@@ -135,7 +135,7 @@ svg {
 /*
     is min-width >= 40rem ? i.e. desktop, not mobile
 */
-@media (min-width: 70rem) {
+@media (min-width: 75rem) {
   .container {
     display: grid;
     grid-template-columns: repeat(4, 25%);

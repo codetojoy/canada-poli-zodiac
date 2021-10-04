@@ -65,22 +65,22 @@ function getFillColor(d) {
     }
   } else {
     let party = d.data.party;
-    // colours sampled from party websites
+    // https://newsinteractives.cbc.ca/elections/federal/2021/results/
     if (party === GREEN_PARTY) {
-      // x40, x9D, x4A
-      result = d3.rgb(64, 157, 74);
+      // 32 86 2B
+      result = d3.rgb(50, 134, 43);
     } else if (party === LIBERAL_PARTY) {
-      // E0, 1F, 2B
-      result = d3.rgb(224, 31, 43);
+      // A3 0F 15
+      result = d3.rgb(163, 15, 21);
     } else if (party === NDP_PARTY) {
-      // F3, 82, 30
-      result = d3.rgb(243, 50, 48);
+      // D8 3E 18
+      result = d3.rgb(216, 62, 24);
     } else if (party === CONSERVATIVE_PARTY) {
-      // 1B A8 DE
-      result = d3.rgb(27, 168, 222);
+      // 12 4C 9A
+      result = d3.rgb(18, 76, 154);
     } else if (party === BLOC_QUEBECOIS_PARTY) {
-      // 49 B7 BE
-      result = d3.rgb(73, 183, 190);
+      // 13 82 9D
+      result = d3.rgb(19, 130, 157);
     } else if (party === INDEPENDENT) {
       result = d3.rgb(192, 192, 192);
     }

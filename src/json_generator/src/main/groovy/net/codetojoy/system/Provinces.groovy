@@ -1,6 +1,9 @@
 
 package net.codetojoy.system
 
+// Abbreviations from:
+// https://www150.statcan.gc.ca/n1/pub/92-195-x/2011001/geo/prov/tbl/tbl8-eng.htm
+
 class Provinces {
     static final def AB_DISPLAY = "Alta."
     static final def BC_DISPLAY = "B.C."
