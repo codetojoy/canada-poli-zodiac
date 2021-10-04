@@ -2,7 +2,7 @@
     "name": "zodiac",
     "children": [
         {
-            "name": "Aries",
+            "name": "B\u00e9lier",
             "children": [
                 {
                     "name": "Terry Beech",
@@ -107,7 +107,7 @@
             ]
         },
         {
-            "name": "Taurus",
+            "name": "Taureau",
             "children": [
                 {
                     "name": "Rachel Bendayan",
@@ -217,7 +217,7 @@
             ]
         },
         {
-            "name": "Gemini",
+            "name": "G\u00e9meaux",
             "children": [
                 {
                     "name": "Alexandre Boulerice",
@@ -417,7 +417,7 @@
             ]
         },
         {
-            "name": "Leo",
+            "name": "Lion",
             "children": [
                 {
                     "name": "G\u00e9rard Deltell",
@@ -472,67 +472,77 @@
             ]
         },
         {
-            "name": "Virgo",
+            "name": "Vierge",
             "children": [
                 {
                     "name": "Niki Ashton",
                     "party": "NDP",
-                    "size": 90.9090909091
+                    "size": 76.9230769231
                 },
                 {
                     "name": "Shaun Chen",
                     "party": "Liberal",
-                    "size": 90.9090909091
+                    "size": 76.9230769231
+                },
+                {
+                    "name": "Darren Fisher",
+                    "party": "Liberal",
+                    "size": 76.9230769231
+                },
+                {
+                    "name": "Randall Garrison",
+                    "party": "NDP",
+                    "size": 76.9230769231
                 },
                 {
                     "name": "Matthew Green",
                     "party": "NDP",
-                    "size": 90.9090909091
+                    "size": 76.9230769231
                 },
                 {
                     "name": "Gudie Hutchings",
                     "party": "Liberal",
-                    "size": 90.9090909091
+                    "size": 76.9230769231
                 },
                 {
                     "name": "Mike Kelloway",
                     "party": "Liberal",
-                    "size": 90.9090909091
+                    "size": 76.9230769231
                 },
                 {
                     "name": "Emmanuella Lambropoulos",
                     "party": "Liberal",
-                    "size": 90.9090909091
+                    "size": 76.9230769231
                 },
                 {
                     "name": "Ben Lobb",
                     "party": "Conservative",
-                    "size": 90.9090909091
+                    "size": 76.9230769231
                 },
                 {
                     "name": "Hon. Lawrence MacAulay",
                     "party": "Liberal",
-                    "size": 90.9090909091
+                    "size": 76.9230769231
                 },
                 {
                     "name": "Bryan May",
                     "party": "Liberal",
-                    "size": 90.9090909091
+                    "size": 76.9230769231
                 },
                 {
                     "name": "Michael McLeod",
                     "party": "Liberal",
-                    "size": 90.9090909091
+                    "size": 76.9230769231
                 },
                 {
                     "name": "Hon. Harjit S. Sajjan",
                     "party": "Liberal",
-                    "size": 90.9090909091
+                    "size": 76.9230769231
                 }
             ]
         },
         {
-            "name": "Libra",
+            "name": "Balance",
             "children": [
                 {
                     "name": "Vance Badawey",
@@ -617,102 +627,107 @@
             ]
         },
         {
-            "name": "Scorpio",
+            "name": "Scorpion",
             "children": [
                 {
                     "name": "Hon. Omar Alghabra",
                     "party": "Liberal",
-                    "size": 55.5555555556
+                    "size": 52.6315789474
                 },
                 {
                     "name": "Charlie Angus",
                     "party": "NDP",
-                    "size": 55.5555555556
+                    "size": 52.6315789474
                 },
                 {
                     "name": "Xavier Barsalou-Duval",
                     "party": "Bloc Qu\u00e9b\u00e9cois",
-                    "size": 55.5555555556
+                    "size": 52.6315789474
                 },
                 {
                     "name": "Hon. Michael Chong",
                     "party": "Conservative",
-                    "size": 55.5555555556
+                    "size": 52.6315789474
                 },
                 {
                     "name": "Chris d'Entremont",
                     "party": "Conservative",
-                    "size": 55.5555555556
+                    "size": 52.6315789474
                 },
                 {
                     "name": "Eric Duncan",
                     "party": "Conservative",
-                    "size": 55.5555555556
+                    "size": 52.6315789474
                 },
                 {
                     "name": "Hon. Kirsty Duncan",
                     "party": "Liberal",
-                    "size": 55.5555555556
+                    "size": 52.6315789474
                 },
                 {
                     "name": "Hon. Patty Hajdu",
                     "party": "Liberal",
-                    "size": 55.5555555556
+                    "size": 52.6315789474
                 },
                 {
                     "name": "Helena Jaczek",
                     "party": "Liberal",
-                    "size": 55.5555555556
+                    "size": 52.6315789474
                 },
                 {
                     "name": "Majid Jowhari",
                     "party": "Liberal",
-                    "size": 55.5555555556
+                    "size": 52.6315789474
                 },
                 {
                     "name": "Iqra Khalid",
                     "party": "Liberal",
-                    "size": 55.5555555556
+                    "size": 52.6315789474
                 },
                 {
                     "name": "Alexandra Mend\u00e8s",
                     "party": "Liberal",
-                    "size": 55.5555555556
+                    "size": 52.6315789474
                 },
                 {
                     "name": "Robert Morrissey",
                     "party": "Liberal",
-                    "size": 55.5555555556
+                    "size": 52.6315789474
                 },
                 {
                     "name": "Pierre Paul-Hus",
                     "party": "Conservative",
-                    "size": 55.5555555556
+                    "size": 52.6315789474
                 },
                 {
                     "name": "Blake Richards",
                     "party": "Conservative",
-                    "size": 55.5555555556
+                    "size": 52.6315789474
+                },
+                {
+                    "name": "Anna Roberts",
+                    "party": "Conservative",
+                    "size": 52.6315789474
                 },
                 {
                     "name": "Hon. Tim Uppal",
                     "party": "Conservative",
-                    "size": 55.5555555556
+                    "size": 52.6315789474
                 },
                 {
                     "name": "Chris Warkentin",
                     "party": "Conservative",
-                    "size": 55.5555555556
+                    "size": 52.6315789474
                 },
                 {
                     "name": "Len Webber",
                     "party": "Conservative",
-                    "size": 55.5555555556
+                    "size": 52.6315789474
                 }
             ]
         },
         {
-            "name": "Sagittarius",
+            "name": "Sagittaire",
             "children": [
                 {
                     "name": "Dan Albas",
@@ -802,7 +817,7 @@
             ]
         },
         {
-            "name": "Capricorn",
+            "name": "Capricorne",
             "children": [
                 {
                     "name": "Jenica Atwin",
@@ -862,7 +877,7 @@
             ]
         },
         {
-            "name": "Aquarius",
+            "name": "Verseau",
             "children": [
                 {
                     "name": "Dean Allison",
@@ -987,7 +1002,7 @@
             ]
         },
         {
-            "name": "Pisces",
+            "name": "Poissons",
             "children": [
                 {
                     "name": "Bob Benzen",

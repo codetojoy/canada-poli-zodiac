@@ -2,7 +2,7 @@
     "name": "zodiac",
     "children": [
         {
-            "name": "Alberta",
+            "name": "Alta.",
             "children": [
                 {
                     "name": "Taurus",
@@ -162,7 +162,7 @@
             ]
         },
         {
-            "name": "British Columbia",
+            "name": "B.C.",
             "children": [
                 {
                     "name": "Aries",
@@ -263,6 +263,11 @@
                     "name": "Virgo",
                     "children": [
                         {
+                            "name": "Randall Garrison",
+                            "party": "NDP",
+                            "size": 23.8095238095
+                        },
+                        {
                             "name": "Hon. Harjit S. Sajjan",
                             "party": "Liberal",
                             "size": 23.8095238095
@@ -322,7 +327,7 @@
             ]
         },
         {
-            "name": "Manitoba",
+            "name": "Man.",
             "children": [
                 {
                     "name": "Aries",
@@ -407,7 +412,7 @@
             ]
         },
         {
-            "name": "New Brunswick",
+            "name": "N.B.",
             "children": [
                 {
                     "name": "Aries",
@@ -517,7 +522,7 @@
             ]
         },
         {
-            "name": "Nova Scotia",
+            "name": "N.S.",
             "children": [
                 {
                     "name": "Gemini",
@@ -532,6 +537,11 @@
                 {
                     "name": "Virgo",
                     "children": [
+                        {
+                            "name": "Darren Fisher",
+                            "party": "Liberal",
+                            "size": 90.9090909091
+                        },
                         {
                             "name": "Mike Kelloway",
                             "party": "Liberal",
@@ -587,7 +597,7 @@
             ]
         },
         {
-            "name": "Ontario",
+            "name": "Ont.",
             "children": [
                 {
                     "name": "Aries",
@@ -876,6 +886,11 @@
                             "name": "Iqra Khalid",
                             "party": "Liberal",
                             "size": 8.2644628099
+                        },
+                        {
+                            "name": "Anna Roberts",
+                            "party": "Conservative",
+                            "size": 8.2644628099
                         }
                     ]
                 },
@@ -1067,7 +1082,7 @@
             ]
         },
         {
-            "name": "Quebec",
+            "name": "Que.",
             "children": [
                 {
                     "name": "Aries",
@@ -1357,7 +1372,7 @@
             ]
         },
         {
-            "name": "Saskatchewan",
+            "name": "Sask.",
             "children": [
                 {
                     "name": "Taurus",
