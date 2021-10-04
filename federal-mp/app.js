@@ -23,7 +23,10 @@ const INDEPENDENT = "Independent";
 const UNKNOWN_PARTY = "Unknown";
 
 const NUM_SIBLINGS_FOR_SMALL_TEXT = 4;
-const NUM_CHARS_FOR_TINY_TEXT = 14;
+const NUM_SIBLINGS_FOR_TINY_TEXT = 12;
+const NUM_SIBLINGS_FOR_MICRO_TEXT = 20;
+const NOT_MANY_SIBLINGS = 4;
+const NUM_CHARS_FOR_TINY_TEXT = 12;
 
 // ----------
 
@@ -88,25 +91,30 @@ function getFillColor(d) {
   return result;
 }
 
-function hasManyChildren(d) {
-  let result = false;
+function getNumChildren(d) {
+  let result = 0;
   let isLeaf = d.data.children == null;
   if (isLeaf && d.parent && d.parent.data && d.parent.data.children) {
-    let numNodes = d.parent.data.children.length;
-    result = numNodes >= NUM_SIBLINGS_FOR_SMALL_TEXT;
+    result = d.parent.data.children.length;
   }
   return result;
 }
 
 function getTextClass(d) {
   let result = "label";
-
-  if (hasManyChildren(d)) {
-    if (d.data.name && d.data.name.length >= NUM_CHARS_FOR_TINY_TEXT) {
-      result = "label-tiny";
-    } else {
-      result = "label-small";
-    }
+  const numChildren = getNumChildren(d);
+  let nameLen = 0;
+  if (d.data.name) {
+    nameLen = d.data.name.length;
+  }
+  if (numChildren >= NUM_SIBLINGS_FOR_MICRO_TEXT) {
+    result = "label-micro";
+  } else if (numChildren >= NUM_SIBLINGS_FOR_TINY_TEXT) {
+    result = "label-tiny";
+  } else if (numChildren >= NUM_SIBLINGS_FOR_SMALL_TEXT) {
+    result = "label-small";
+  } else if (numChildren > NOT_MANY_SIBLINGS && nameLen >= NUM_CHARS_FOR_TINY_TEXT) {
+    result = "label-tiny";
   }
 
   return result;
