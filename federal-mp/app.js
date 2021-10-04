@@ -197,6 +197,7 @@ function drawCircle(jsonFile) {
       .enter()
       .append("text")
       .attr("class", getTextClass)
+      .style("fill", "white")
       .style("fill-opacity", function (d) {
         return d.parent === root ? 1 : 0;
       })
