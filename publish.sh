@@ -12,7 +12,7 @@ cd ..
 
 git add -u . 
 git add ./federal-mp
-# git commit -m "incremental refresh"
-# git push origin gh-pages
+git commit -m "incremental refresh"
+git push origin gh-pages
 
 echo "Ready."
