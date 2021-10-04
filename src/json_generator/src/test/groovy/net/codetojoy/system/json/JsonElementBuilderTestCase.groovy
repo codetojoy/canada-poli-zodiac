@@ -33,9 +33,6 @@ class JsonElementBuilderTestCase {
 	// test
 	def result = jsonElementBuilder.buildWithElements(infos, locale)
 
-	println "TRACER JEB english"
-	println result
-
 	// this is ridiculous, but YOLO:
 
 	def jsonSlurper = new JsonSlurper()
@@ -132,9 +129,6 @@ class JsonElementBuilderTestCase {
 
 	// test
 	def result = jsonElementBuilder.buildWithElements(infos, locale)
-
-	println "TRACER JEB french"
-	println result
 
 	// this is ridiculous, but YOLO:
 
