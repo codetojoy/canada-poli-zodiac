@@ -16,7 +16,7 @@
 - original data-set is `./zodiac_federal_mp.csv`
 - this project requires Gradle and Groovy (and Java SDK)
 - `./src/json-generator` produces various `json` files from `./zodiac_federal_mp.csv`
-- `./viz` is the project for the [circle-packing visualization](https://codetojoy.github.io/canada-poli-zodiac/index.html)
+- `./viz` is the project for the [circle-packing visualization](https://codetojoy.github.io/canada-poli-zodiac/federal-mp/index.html)
   - `gh-pages` branch contains publishing scripts
 
 ### License details
