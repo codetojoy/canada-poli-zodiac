@@ -5,32 +5,42 @@ import net.codetojoy.system.*
 
 import groovy.json.*
 
-class JsonUnknownBuilder extends JsonProvinceBuilder {
+class JsonUnknownBuilder extends BaseBuilder {
+
+    def buildChildrenWithProvince(def infos, def province, def locale) {
+        return infos.findResults { info ->
+            def person = [:]
+            person[NAME] = info.name
+            person[PARTY] = info.party
+            person[SIZE] = getSizeForProvince(infos, province)
+            return person
+        }
+    }
 
     def buildForUnknown(def infos, def locale) {
         def unknownRows = infos.infoMap[Signs.UNKNOWN_DATA_SIGN]
         def unknownInfos = new Infos()
         unknownInfos.populate(unknownRows)
 
-        def abChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.AB], Provinces.AB, true)
-        def bcChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.BC], Provinces.BC, true)
-        def mbChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.MB], Provinces.MB, true)
-        def nbChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.NB], Provinces.NB, true)
-        def nlChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.NL], Provinces.NL, true)
-        def nsChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.NS], Provinces.NS, true)
-        def onChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.ON], Provinces.ON, true)
-        def nuChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.NU], Provinces.NU, true)
+        def abChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.AB], Provinces.AB, locale)
+        def bcChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.BC], Provinces.BC, locale)
+        def mbChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.MB], Provinces.MB, locale)
+        def nbChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.NB], Provinces.NB, locale)
+        def nlChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.NL], Provinces.NL, locale)
+        def nsChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.NS], Provinces.NS, locale)
+        def onChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.ON], Provinces.ON, locale)
+        def nuChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.NU], Provinces.NU, locale)
 
-        def ntChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.NT], Provinces.NT, true)
+        def ntChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.NT], Provinces.NT, locale)
         assert ntChildren.isEmpty()
 
-        def peiChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.PEI], Provinces.PEI, true)
+        def peiChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.PEI], Provinces.PEI, locale)
         assert peiChildren.isEmpty()
 
-        def qcChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.QC], Provinces.QC, true)
-        def skChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.SK], Provinces.SK, true)
+        def qcChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.QC], Provinces.QC, locale)
+        def skChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.SK], Provinces.SK, locale)
 
-        def ytChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.YT], Provinces.YT, true)
+        def ytChildren = buildChildrenWithProvince(unknownInfos.infoMap[Provinces.YT], Provinces.YT, locale)
 
         def jsonMap = [
             "name" : "zodiac", "children" : [

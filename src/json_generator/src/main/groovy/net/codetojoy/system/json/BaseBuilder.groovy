@@ -76,4 +76,11 @@ abstract class BaseBuilder {
         }
         return children
     }
+
+    def getSizeForProvince(def infos, def province) {
+        def result = DEFAULT_SIZE
+        def count = infos.findAll{it.province == province}.size()
+        result = result / count
+        return result
+    }
 }

@@ -25,8 +25,8 @@ class Provinces {
         MB_DISPLAY,
         NB_DISPLAY,
         NL_DISPLAY,
-        NWT_DISPLAY,
         NS_DISPLAY,
+        NWT_DISPLAY,
         NU_DISPLAY,
         ON_DISPLAY,
         PEI_DISPLAY,
@@ -51,13 +51,27 @@ class Provinces {
 
     static final def DATA_PROVINCES = [AB, BC, MB, NB, NL, NS, NT, NU, ON, PEI, QC, SK, YT]
 
+    def translationMap = [:]
+
+    def Provinces() {
+        translationMap[AB] = AB_DISPLAY
+        translationMap[BC] = BC_DISPLAY
+        translationMap[MB] = MB_DISPLAY
+        translationMap[NB] = NB_DISPLAY
+        translationMap[NL] = NL_DISPLAY
+        translationMap[NS] = NS_DISPLAY
+        translationMap[NT] = NWT_DISPLAY
+        translationMap[NU] = NU_DISPLAY
+        translationMap[ON] = ON_DISPLAY
+        translationMap[PEI] = PEI_DISPLAY
+        translationMap[QC] = QC_DISPLAY
+        translationMap[SK] = SK_DISPLAY
+        translationMap[YT] = YT_DISPLAY
+    }
+
     def getDisplayProvince(def dataProvince) {
-        def target = dataProvince.trim().toUpperCase()
-
-        def index = DATA_PROVINCES.findIndexOf{ it.trim().toUpperCase() == target }
-
-        if (index >= 0) {
-            return DISPLAY_PROVINCES[index]
+        if (translationMap.keySet().contains(dataProvince)) {
+            return translationMap.get(dataProvince)
         } else {
             throw new IllegalStateException("internal error for '$dataSign' : $index")
         }
