@@ -18,11 +18,13 @@ label {
 h1 {
   color: #f3f4a7;
   font-size: 1.8rem;
+  text-shadow: 0 1px 0 #000, 1px 0 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
 }
 
 h2 {
   color: #f3f4a7;
   font-size: 1.2rem;
+  text-shadow: 0 1px 0 #000, 1px 0 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
 }
 
 p {
