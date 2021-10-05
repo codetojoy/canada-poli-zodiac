@@ -1,6 +1,6 @@
 ### Zodiac Signs for Canadian Federal MPs (Members of Parliament)
 
-- A silly project, inspired by [this tweet](https://twitter.com/perry_chel/status/1437800478897758212)
+- A silly project, inspired by [this tweet](https://twitter.com/perry_chel/status/1437800478897758212) and [this earlier project](https://codetojoy.github.io/PrinceEdwardIsland/web/pei-poli-zodiac/index.html) for PEI
   - Uses the amazing [D3.js library](https://d3js.org)
   - Derived, specifically, from [this example](https://gist.github.com/mbostock/4063530)
         - this example is licensed under GPL v 3.0 and this project is compatible: Apache License Version 2.0
