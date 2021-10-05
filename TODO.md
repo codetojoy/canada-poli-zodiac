@@ -9,6 +9,7 @@
 
 ### viz
 
+* thumbnail for og
 * spacing on main page, left
 * links to MPs? or hover? 
 * font sizes redux
