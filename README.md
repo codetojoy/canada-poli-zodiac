@@ -7,10 +7,9 @@
 - Data-set is [here](./zodiac_federal_mp.csv)
   - derived from [this Open Data file](https://www.ourcommons.ca/en/open-data#CurrentMembers)
   - see License Details below
+  - current as of 05-OCT-2021
 - All birthdays/signs found on [Wikipedia](https://wikipedia.org) or via public tweets.
   - sources listed in the data file
-- Names, titles, ridings from [this page](https://www.assembly.pe.ca/members)
-  - current as of 05-OCT-2021
 
 ### Technical details
 
