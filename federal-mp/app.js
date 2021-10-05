@@ -23,7 +23,7 @@ const INDEPENDENT = "Independent";
 const UNKNOWN_PARTY = "Unknown";
 
 const NUM_SIBLINGS_FOR_SMALL_TEXT = 4;
-const NUM_SIBLINGS_FOR_TINY_TEXT = 12;
+const NUM_SIBLINGS_FOR_TINY_TEXT = 10;
 const NUM_SIBLINGS_FOR_MICRO_TEXT = 20;
 const NOT_MANY_SIBLINGS = 4;
 const NUM_CHARS_FOR_TINY_TEXT = 12;
@@ -104,7 +104,7 @@ function getTextClass(d) {
   let result = "label";
   const numChildren = getNumChildren(d);
   let nameLen = 0;
-  if (d.data.name) {
+  if (d.data && d.data.name) {
     nameLen = d.data.name.length;
   }
   if (numChildren >= NUM_SIBLINGS_FOR_MICRO_TEXT) {
@@ -116,7 +116,6 @@ function getTextClass(d) {
   } else if (numChildren > NOT_MANY_SIBLINGS && nameLen >= NUM_CHARS_FOR_TINY_TEXT) {
     result = "label-tiny";
   }
-
   return result;
 }
 
