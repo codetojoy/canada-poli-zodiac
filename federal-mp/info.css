@@ -1,7 +1,14 @@
 .container-info {
-  margin: 10rem;
+  margin-top: 10rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding-bottom: 12rem;
 }
 
 a {
   text-decoration: none;
+}
+
+.container-info p {
+  font: 1.3rem "Georgia", serif;
 }
