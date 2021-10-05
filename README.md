@@ -3,7 +3,7 @@
 - A silly project, inspired by [this tweet](https://twitter.com/perry_chel/status/1437800478897758212) and [this earlier project](https://codetojoy.github.io/PrinceEdwardIsland/web/pei-poli-zodiac/index.html) for PEI
   - Uses the amazing [D3.js library](https://d3js.org)
   - Derived, specifically, from [this example](https://gist.github.com/mbostock/4063530)
-        - this example is licensed under GPL v 3.0 and this project is compatible: Apache License Version 2.0
+    - this example is licensed under GPL v 3.0 and this project is compatible: Apache License Version 2.0
 - Data-set is [here](./zodiac_federal_mp.csv)
   - derived from [this Open Data file](https://www.ourcommons.ca/en/open-data#CurrentMembers)
   - see License Details below
