@@ -6,8 +6,8 @@ set -e
 groovy VersionInfo.groovy 
 
 cd ./federal-mp
-mv tmp.index.html index.html 
-mv tmp.index_fr.html index_fr.html 
+mv tmp.info.html info.html 
+mv tmp.info_fr.html info_fr.html 
 cd ..
 
 git add -u . 

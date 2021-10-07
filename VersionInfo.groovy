@@ -29,12 +29,12 @@ def doStamp = { file, workingFile ->
 def file
 def workingFile 
 
-file = new File("./federal-mp/index.html")
-workingFile = new File("./federal-mp/tmp.index.html")
+file = new File("./federal-mp/info.html")
+workingFile = new File("./federal-mp/tmp.info.html")
 doStamp(file, workingFile) 
 
-file = new File("./federal-mp/index_fr.html")
-workingFile = new File("./federal-mp/tmp.index_fr.html")
+file = new File("./federal-mp/info_fr.html")
+workingFile = new File("./federal-mp/tmp.info_fr.html")
 doStamp(file, workingFile) 
 
 println "Ready."
