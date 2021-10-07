@@ -53,7 +53,7 @@ function getLocalizedJsonFile(jsonFile) {
         break;
     }
   }
-  console.log(`TRACER fileName '${fileName}' isFrench ${isFrench} jsonFile ${result}`);
+  // console.log(`TRACER fileName '${fileName}' isFrench ${isFrench} jsonFile ${result}`);
   return result;
 }
 
@@ -134,26 +134,6 @@ function drawCircle(jsonFile) {
   // clear any previous graph, esp. if zoomed in
   svg.selectAll("circle,text").remove();
 
-  /*
-  let previousNodes = svg.selectAll("circle,text");
-
-  if (previousNodes.empty()) {
-    loadNewNodes();
-  } else {
-    // fade-out previous so the UI doesn't just snap/flicker
-    previousNodes
-      .transition()
-      .duration(500)
-      .ease(Math.sqrt)
-      .attr("r", 0)
-      .style("stroke-opacity", 1e-6)
-      .style("fill-opacity", 1e-6)
-      .remove()
-      .on("end", loadNewNodes);
-  }
-  */
-
-  // function loadNewNodes() {
   let color = d3.scaleLinear().domain([-1, 5]).range(BACKGROUND_RANGE).interpolate(d3.interpolateHcl);
 
   let pack = d3
@@ -255,8 +235,9 @@ function drawCircle(jsonFile) {
       });
     }
   });
-  // } // loadNewNodes
 } // drawCircle
+
+// ----------------- DOM/event handlers
 
 function modeCheckboxHandler(event) {
   const value = event.target.value;
@@ -275,3 +256,28 @@ document.getElementById("checkbox-normal").addEventListener("change", modeCheckb
 document.getElementById("checkbox-elements").addEventListener("change", modeCheckboxHandler);
 document.getElementById("checkbox-provinces").addEventListener("change", modeCheckboxHandler);
 document.getElementById("checkbox-unknown").addEventListener("change", modeCheckboxHandler);
+
+const backdrop = document.querySelector(".backdrop");
+const toggleButton = document.querySelector(".toggle-button");
+const sideNav = document.querySelector(".side-nav");
+
+toggleButton.addEventListener("click", function () {
+  console.log(`TRACER toggleButton cp 1`);
+  sideNav.classList.add("open");
+  backdrop.style.display = "block";
+  setTimeout(function () {
+    backdrop.classList.add("open");
+  }, 10);
+});
+
+backdrop.addEventListener("click", function () {
+  sideNav.classList.remove("open");
+  closeModal();
+});
+
+function closeModal() {
+  backdrop.classList.remove("open");
+  setTimeout(function () {
+    backdrop.style.display = "none";
+  }, 200);
+}

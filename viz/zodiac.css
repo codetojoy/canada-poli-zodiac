@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+
 * {
   box-sizing: border-box;
 }
@@ -12,6 +14,8 @@ body {
   margin: 0;
   background-color: black;
   background-image: linear-gradient(135deg, black, #f3f4a7);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 a,
@@ -51,6 +55,87 @@ p {
   align-items: center;
 }
 
+/* begin: navgation, button, sideNav */
+
+.toggle-button {
+  width: 3rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-left: 1.2rem;
+  vertical-align: middle;
+}
+
+.toggle-button:focus {
+  outline: none;
+}
+
+.toggle-button__bar {
+  width: 100%;
+  height: 0.2rem;
+  background: #f3f4a7;
+  display: block;
+  margin: 0.6rem 0;
+}
+
+.backdrop {
+  display: none;
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.2s linear;
+}
+
+.side-nav {
+  transform: translateX(-100%);
+  position: fixed;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  background: black;
+  background-image: linear-gradient(135deg, black, #f3f4a7);
+  width: 30%;
+  height: 100vh;
+  transition: transform 300ms ease-out;
+}
+
+.side-nav__items {
+  width: 30%;
+  height: 30%;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.side-nav__item {
+  margin: 1rem 0;
+}
+
+.side-nav__item a {
+  text-decoration: none;
+  color: #f3f4a7;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.2rem 0;
+}
+
+.open {
+  display: block !important;
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
 /* begin: original D3 gist */
 
 .node {
@@ -67,26 +152,25 @@ p {
 }
 
 .label {
-  /* font: 1.8rem "Helvetica Neue", Helvetica, Arial, sans-serif; */
   font: 1.8rem "Montserrat", Arial, sans-serif;
   text-anchor: middle;
   text-shadow: 0 2px 0 #000, 2px 0 0 #000, -2px 0 0 #000, 0 -2px 0 #000;
 }
 
 .label-small {
-  font: 1.4rem "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 1.4rem "Montserrat", Helvetica, Arial, sans-serif;
   text-anchor: middle;
   text-shadow: 0 1px 0 #000, 1px 0 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
 }
 
 .label-tiny {
-  font: 0.8rem "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 0.8rem "Montserrat", Helvetica, Arial, sans-serif;
   text-anchor: middle;
   text-shadow: 0 1px 0 #000, 1px 0 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
 }
 
 .label-micro {
-  font: 0.5rem "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 0.5rem "Montserrat", Helvetica, Arial, sans-serif;
   text-anchor: middle;
   text-shadow: 0 1px 0 #000, 1px 0 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
 }
@@ -109,13 +193,11 @@ p {
 .container {
   display: grid;
   grid-template-columns: repeat(4, 25%);
-  grid-template-rows: 50px 10px 1200px 10px 50px;
+  grid-template-rows: 50px 3px 950px;
   grid-template-areas:
     "header header header header"
     ". . . ."
-    "content content content content"
-    ". . . ."
-    ". footer footer .";
+    "content content content content";
 }
 
 .header {
@@ -129,18 +211,6 @@ p {
   align-items: center;
 }
 
-.footer {
-  grid-area: footer;
-  font-size: 0.2rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.footer p {
-  font-size: 0.7rem;
-}
-
 svg {
   border-color: black;
   border-width: 1px;
@@ -148,19 +218,17 @@ svg {
 }
 
 /*
-    is min-width >= 40rem ? i.e. desktop, not mobile
+    is min-width >= 75rem ? i.e. desktop, not mobile
 */
 @media (min-width: 75rem) {
   .container {
     display: grid;
     grid-template-columns: repeat(4, 25%);
-    grid-template-rows: 5px 5px 800px 20px 50px;
+    grid-template-rows: 40px 10px 90vh;
     grid-template-areas:
       "header header header header"
       ". . . ."
-      "content content content content"
-      ". . . ."
-      ". footer footer .";
+      "content content content content";
   }
 
   .content {
@@ -171,6 +239,7 @@ svg {
   }
 
   .footer p {
+    display: none;
     color: #f3f4a7;
     font-size: 0.7rem;
   }

@@ -9,6 +9,9 @@
 
 ### viz
 
+* CSS going OK
+    - toggle button doesn't work when media query kicks in ?
+    - otherwise promising
 * footer on Firefox
 * x - thumbnail for og
 * spacing on main page, left
