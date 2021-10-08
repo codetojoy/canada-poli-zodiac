@@ -223,6 +223,11 @@ svg {
   border-style: solid;
 }
 
+.my-data-viz {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 /*
     is min-width >= 75rem ? i.e. desktop, not mobile
 */
@@ -259,5 +264,10 @@ svg {
   h1 {
     color: var(--primary);
     font-size: 1.6rem;
+  }
+
+  .my-data-viz {
+    display: flex;
+    flex-direction: column;
   }
 }
