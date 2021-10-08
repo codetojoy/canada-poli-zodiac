@@ -28,6 +28,26 @@ const NUM_SIBLINGS_FOR_MICRO_TEXT = 16;
 const NOT_MANY_SIBLINGS = 4;
 const NUM_CHARS_FOR_TINY_TEXT = 10;
 
+const MODE_NORMAL = "normal";
+const MODE_ELEMENTS = "elements";
+const MODE_PROVINCES = "provinces";
+const MODE_UNKNOWN = "unknown";
+
+const MODE_MAP = {};
+MODE_MAP[MODE_NORMAL] = NORMAL_JSON_FILE;
+MODE_MAP[MODE_ELEMENTS] = ELEMENTS_JSON_FILE;
+MODE_MAP[MODE_PROVINCES] = PROVINCES_JSON_FILE;
+MODE_MAP[MODE_UNKNOWN] = UNKNOWN_JSON_FILE;
+
+// from: https://newsinteractives.cbc.ca/elections/federal/2021/results/
+const PARTY_COLOR_MAP = {};
+PARTY_COLOR_MAP[BLOC_QUEBECOIS_PARTY] = d3.rgb(19, 130, 157); // 13 82 9D
+PARTY_COLOR_MAP[CONSERVATIVE_PARTY] = d3.rgb(18, 76, 154); // 12 4C 9A
+PARTY_COLOR_MAP[GREEN_PARTY] = d3.rgb(50, 134, 43); // 32 86 2B
+PARTY_COLOR_MAP[INDEPENDENT] = d3.rgb(192, 192, 192);
+PARTY_COLOR_MAP[LIBERAL_PARTY] = d3.rgb(163, 15, 21); // A3 0F 15
+PARTY_COLOR_MAP[NDP_PARTY] = d3.rgb(216, 62, 24); // D8 3E 18
+
 // ----------
 
 function getLocalizedJsonFile(jsonFile) {
@@ -67,26 +87,8 @@ function getFillColor(d) {
       result = color(d.depth);
     }
   } else {
-    let party = d.data.party;
-    // https://newsinteractives.cbc.ca/elections/federal/2021/results/
-    if (party === GREEN_PARTY) {
-      // 32 86 2B
-      result = d3.rgb(50, 134, 43);
-    } else if (party === LIBERAL_PARTY) {
-      // A3 0F 15
-      result = d3.rgb(163, 15, 21);
-    } else if (party === NDP_PARTY) {
-      // D8 3E 18
-      result = d3.rgb(216, 62, 24);
-    } else if (party === CONSERVATIVE_PARTY) {
-      // 12 4C 9A
-      result = d3.rgb(18, 76, 154);
-    } else if (party === BLOC_QUEBECOIS_PARTY) {
-      // 13 82 9D
-      result = d3.rgb(19, 130, 157);
-    } else if (party === INDEPENDENT) {
-      result = d3.rgb(192, 192, 192);
-    }
+    // leaf
+    result = PARTY_COLOR_MAP[d.data.party];
   }
   return result;
 }
@@ -240,16 +242,8 @@ function drawCircle(jsonFile) {
 // ----------------- DOM/event handlers
 
 function modeCheckboxHandler(event) {
-  const value = event.target.value;
-  if (value === "normal") {
-    drawCircle(NORMAL_JSON_FILE);
-  } else if (value === "elements") {
-    drawCircle(ELEMENTS_JSON_FILE);
-  } else if (value === "provinces") {
-    drawCircle(PROVINCES_JSON_FILE);
-  } else if (value === "unknown") {
-    drawCircle(UNKNOWN_JSON_FILE);
-  }
+  const mode = event.target.value;
+  drawCircle(MODE_MAP[mode]);
 }
 
 document.getElementById("checkbox-normal").addEventListener("change", modeCheckboxHandler);
@@ -262,7 +256,6 @@ const toggleButton = document.querySelector(".toggle-button");
 const sideNav = document.querySelector(".side-nav");
 
 toggleButton.addEventListener("click", function () {
-  console.log(`TRACER toggleButton cp 1`);
   sideNav.classList.add("open");
   backdrop.style.display = "block";
   setTimeout(function () {
