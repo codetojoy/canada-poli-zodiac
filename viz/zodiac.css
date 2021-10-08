@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
 
+:root {
+  --primary: #f3f4a7;
+  --background: black;
+  --secondary: white;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -12,32 +18,32 @@ body {
   min-height: 100%;
   font-family: "Montserrat", sans-serif;
   margin: 0;
-  background-color: black;
-  background-image: linear-gradient(135deg, black, #f3f4a7);
+  background-color: var(--background);
+  background-image: linear-gradient(135deg, var(--background), var(--primary));
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 a,
 label {
-  color: white;
+  color: var(--secondary);
   font-size: 1.2rem;
 }
 
 h1 {
-  color: #f3f4a7;
+  color: var(--primary);
   font-size: 1.8rem;
   text-shadow: 0 1px 0 #000, 1px 0 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
 }
 
 h2 {
-  color: #f3f4a7;
+  color: var(--primary);
   font-size: 1.2rem;
   text-shadow: 0 1px 0 #000, 1px 0 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
 }
 
 p {
-  color: #f3f4a7;
+  color: var(--primary);
   font-size: 1.6rem;
 }
 
@@ -75,7 +81,7 @@ p {
 .toggle-button__bar {
   width: 100%;
   height: 0.2rem;
-  background: #f3f4a7;
+  background: var(--primary);
   display: block;
   margin: 0.6rem 0;
 }
@@ -99,8 +105,8 @@ p {
   z-index: 101;
   top: 0;
   left: 0;
-  background: black;
-  background-image: linear-gradient(135deg, black, #f3f4a7);
+  background: var(--background);
+  background-image: linear-gradient(135deg, var(--background), var(--primary));
   width: 30%;
   height: 100vh;
   transition: transform 300ms ease-out;
@@ -124,7 +130,7 @@ p {
 
 .side-nav__item a {
   text-decoration: none;
-  color: #f3f4a7;
+  color: var(--primary);
   font-size: 1.5rem;
   font-weight: bold;
   padding: 0.2rem 0;
@@ -212,7 +218,7 @@ p {
 }
 
 svg {
-  border-color: black;
+  border-color: var(--background);
   border-width: 1px;
   border-style: solid;
 }
@@ -240,18 +246,18 @@ svg {
 
   .footer p {
     display: none;
-    color: #f3f4a7;
+    color: var(--primary);
     font-size: 0.7rem;
   }
 
   p,
   label {
-    color: #f3f4a7;
+    color: var(--primary);
     font-size: 1.2rem;
   }
 
   h1 {
-    color: #f3f4a7;
+    color: var(--primary);
     font-size: 1.6rem;
   }
 }
