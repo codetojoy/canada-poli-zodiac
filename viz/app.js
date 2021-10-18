@@ -335,8 +335,6 @@ function drawCircle(jsonFile) {
   // clear any previous graph, esp. if zoomed in
   svg.selectAll("circle,text").remove();
 
-  let color = d3.scaleLinear().domain([-1, 5]).range(BACKGROUND_RANGE).interpolate(d3.interpolateHcl);
-
   let pack = d3
     .pack()
     .size([diameter - margin, diameter - margin])
@@ -345,6 +343,7 @@ function drawCircle(jsonFile) {
   d3.json(getLocalizedJsonFile(jsonFile), function (error, root) {
     if (error) throw error;
 
+    // root is hierarchy data-structure
     root = d3
       .hierarchy(root)
       .sum(function (d) {
@@ -354,10 +353,13 @@ function drawCircle(jsonFile) {
         return partySort(a, b);
       });
 
+    // each node gets node.x, node.y, node.r
+    // https://github.com/d3/d3-hierarchy#pack
     let focus = root,
       nodes = pack(root).descendants(),
-      view;
+      currentView;
 
+    // build circles
     let circle = g
       .selectAll("circle")
       .data(nodes)
@@ -371,6 +373,7 @@ function drawCircle(jsonFile) {
         if (focus !== d) zoom(d), d3.event.stopPropagation();
       });
 
+    // build labels for circles
     let text = g
       .selectAll("text")
       .data(nodes)
@@ -390,6 +393,7 @@ function drawCircle(jsonFile) {
 
     drawHorizontalLegend();
 
+    // select everything for animation re: zoom
     let node = g.selectAll("circle,text");
 
     svg.style("background", color(-1)).on("click", function () {
@@ -398,6 +402,15 @@ function drawCircle(jsonFile) {
 
     zoomTo([root.x, root.y, root.r * 2 + margin]);
 
+    // called when user clicks on a circle
+    // sets up a tween animation where `zoomTo` is called repeatedly
+    // focus - target
+    // view
+    //
+    // https://observablehq.com/@d3/d3-interpolatezoom
+    // - interpolation uses start, end view
+    // - `view` is defined by x, y, width
+    //    - x,y is center
     function zoom(d) {
       focus = d;
 
@@ -405,12 +418,14 @@ function drawCircle(jsonFile) {
         .transition()
         .duration(d3.event.altKey ? 7500 : 750)
         .tween("zoom", function (d) {
-          let i = d3.interpolateZoom(view, [focus.x, focus.y, focus.r * 2 + margin]);
+          const targetView = [focus.x, focus.y, focus.r * 2 + margin];
+          let i = d3.interpolateZoom(currentView, targetView);
           return function (t) {
             zoomTo(i(t));
           };
         });
 
+      // handle the labels: turn on/off as appropriate
       transition
         .selectAll("text")
         .filter(function (d) {
@@ -427,11 +442,20 @@ function drawCircle(jsonFile) {
         });
     }
 
+    // v is a view: [node.x, node.y, width]
+    // side-effects:
+    //    each node (i.e. circle, text selection) is translated
+    //    currentView is updated
+    //    circle selection: radius scaled
+    // see link above about interpolationZoom
     function zoomTo(v) {
       const k = diameter / v[2];
-      view = v;
+      currentView = v;
       node.attr("transform", function (d) {
-        return "translate(" + (d.x - v[0]) * k + "," + (d.y - v[1]) * k + ")";
+        const x = (d.x - v[0]) * k;
+        const y = (d.y - v[1]) * k;
+        return `translate(${x},${y})`;
+        // return "translate(" + (d.x - v[0]) * k + "," + (d.y - v[1]) * k + ")";
       });
       circle.attr("r", function (d) {
         return d.r * k;
