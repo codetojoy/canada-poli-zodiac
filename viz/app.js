@@ -95,17 +95,12 @@ const LEGEND_MAP = {
 
 const ALT_COLOR_SCHEME = "zodiac_alt_colors";
 
+const color = d3.scaleLinear().domain([-1, 5]).range(BACKGROUND_RANGE).interpolate(d3.interpolateHcl);
+
 // ----------
 
 function getColorMap() {
-  console.log(`TRACER gCM cp 0`);
-
-  if (isAltColorScheme()) {
-    console.log(`TRACER gCM alt cp 1`);
-    return PARTY_ALT_COLOR_MAP;
-  } else {
-    return PARTY_COLOR_MAP;
-  }
+  return isAltColorScheme() ? PARTY_ALT_COLOR_MAP : PARTY_COLOR_MAP;
 }
 
 function isAltColorScheme() {
@@ -117,12 +112,11 @@ function isAltColorScheme() {
   return result;
 }
 
-function setAltColorScheme(value) {
-  console.log(`TRACER sACS cp 1`);
+function setAltColorScheme() {
   sessionStorage.setItem(ALT_COLOR_SCHEME, "true");
 }
 
-function clearAltColorScheme(value) {
+function clearAltColorScheme() {
   sessionStorage.removeItem(ALT_COLOR_SCHEME);
 }
 
@@ -143,8 +137,14 @@ function getColorForLegend(legend) {
   return colorMap[LEGEND_MAP[legend].code];
 }
 
+var myLocation = {
+  getCurrentURL: function () {
+    return window.location.href;
+  },
+};
+
 function isFrenchMode() {
-  const fileName = location.href.split("/").slice(-1);
+  const fileName = myLocation.getCurrentURL().split("/").slice(-1);
   const isFrench = fileName == "index_fr.html";
   return isFrench;
 }
@@ -170,7 +170,6 @@ function getLocalizedJsonFile(jsonFile) {
         break;
     }
   }
-  // console.log(`TRACER fileName '${fileName}' isFrench ${isFrench} jsonFile ${result}`);
   return result;
 }
 
@@ -180,7 +179,6 @@ function getFillColor(d) {
     if (d.data.name === UNKNOWN_PARTY) {
       result = d3.color("white");
     } else {
-      let color = d3.scaleLinear().domain([-1, 5]).range(BACKGROUND_RANGE).interpolate(d3.interpolateHcl);
       result = color(d.depth);
     }
   } else {
@@ -191,7 +189,7 @@ function getFillColor(d) {
   return result;
 }
 
-function getNumChildren(d) {
+function getNumSiblings(d) {
   let result = 0;
   let isLeaf = d.data.children == null;
   if (isLeaf && d.parent && d.parent.data && d.parent.data.children) {
@@ -202,18 +200,19 @@ function getNumChildren(d) {
 
 function getTextClass(d) {
   let result = "label";
-  const numChildren = getNumChildren(d);
+  const numSiblings = getNumSiblings(d);
   let nameLen = 0;
   if (d.data && d.data.name) {
     nameLen = d.data.name.length;
   }
-  if (numChildren >= NUM_SIBLINGS_FOR_MICRO_TEXT) {
+  if (numSiblings >= NUM_SIBLINGS_FOR_MICRO_TEXT) {
     result = "label-micro";
-  } else if (numChildren >= NUM_SIBLINGS_FOR_TINY_TEXT) {
+  } else if (numSiblings >= NUM_SIBLINGS_FOR_TINY_TEXT) {
     result = "label-tiny";
-  } else if (numChildren >= NUM_SIBLINGS_FOR_SMALL_TEXT) {
+  } else if (numSiblings >= NUM_SIBLINGS_FOR_SMALL_TEXT) {
     result = "label-small";
-  } else if (numChildren > NOT_MANY_SIBLINGS && nameLen >= NUM_CHARS_FOR_TINY_TEXT) {
+  } else if (numSiblings > NOT_MANY_SIBLINGS && nameLen >= NUM_CHARS_FOR_TINY_TEXT) {
+    // this should be combined with condition above
     result = "label-tiny";
   }
   return result;
@@ -452,7 +451,6 @@ function checkAltColorsForUI() {
 
 function altColorsHandler(cb) {
   if (cb.target.checked) {
-    console.log(`TRACER handler checked`);
     setAltColorScheme();
   } else {
     clearAltColorScheme();
@@ -460,28 +458,35 @@ function altColorsHandler(cb) {
   drawCircle(MODE_MAP[currentMode]);
 }
 
-document.getElementById("checkbox-normal").addEventListener("change", modeCheckboxHandler);
-document.getElementById("checkbox-elements").addEventListener("change", modeCheckboxHandler);
-document.getElementById("checkbox-provinces").addEventListener("change", modeCheckboxHandler);
-document.getElementById("checkbox-unknown").addEventListener("change", modeCheckboxHandler);
-document.getElementById("checkbox-alt-colors").addEventListener("click", altColorsHandler);
+if (document && document.getElementById("checkbox-normal")) {
+  // we are in browser-mode (vs test-mode), so initialize
+  initializeEventListeners();
+}
 
-const backdrop = document.querySelector(".backdrop");
-const toggleButton = document.querySelector(".toggle-button");
-const sideNav = document.querySelector(".side-nav");
+function initializeEventListeners() {
+  document.getElementById("checkbox-normal").addEventListener("change", modeCheckboxHandler);
+  document.getElementById("checkbox-elements").addEventListener("change", modeCheckboxHandler);
+  document.getElementById("checkbox-provinces").addEventListener("change", modeCheckboxHandler);
+  document.getElementById("checkbox-unknown").addEventListener("change", modeCheckboxHandler);
+  document.getElementById("checkbox-alt-colors").addEventListener("click", altColorsHandler);
 
-toggleButton.addEventListener("click", function () {
-  sideNav.classList.add("open");
-  backdrop.style.display = "block";
-  setTimeout(function () {
-    backdrop.classList.add("open");
-  }, 10);
-});
+  const backdrop = document.querySelector(".backdrop");
+  const toggleButton = document.querySelector(".toggle-button");
+  const sideNav = document.querySelector(".side-nav");
 
-backdrop.addEventListener("click", function () {
-  sideNav.classList.remove("open");
-  closeModal();
-});
+  toggleButton.addEventListener("click", function () {
+    sideNav.classList.add("open");
+    backdrop.style.display = "block";
+    setTimeout(function () {
+      backdrop.classList.add("open");
+    }, 10);
+  });
+
+  backdrop.addEventListener("click", function () {
+    sideNav.classList.remove("open");
+    closeModal();
+  });
+}
 
 function closeModal() {
   backdrop.classList.remove("open");
