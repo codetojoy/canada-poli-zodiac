@@ -97,6 +97,13 @@ const ALT_COLOR_SCHEME = "zodiac_alt_colors";
 
 const color = d3.scaleLinear().domain([-1, 5]).range(BACKGROUND_RANGE).interpolate(d3.interpolateHcl);
 
+const CSS_LABEL = "label";
+const CSS_LABEL_SMALL = "label-small";
+const CSS_LABEL_TINY = "label-tiny";
+const CSS_LABEL_MICRO = "label-micro";
+
+const UNKNOWN_COLOR = d3.color("white");
+
 // ----------
 
 function getColorMap() {
@@ -177,7 +184,7 @@ function getFillColor(d) {
   let result = null;
   if (d.children) {
     if (d.data.name === UNKNOWN_PARTY) {
-      result = d3.color("white");
+      result = UNKNOWN_COLOR;
     } else {
       result = color(d.depth);
     }
@@ -199,21 +206,21 @@ function getNumSiblings(d) {
 }
 
 function getTextClass(d) {
-  let result = "label";
+  let result = CSS_LABEL;
   const numSiblings = getNumSiblings(d);
   let nameLen = 0;
   if (d.data && d.data.name) {
     nameLen = d.data.name.length;
   }
   if (numSiblings >= NUM_SIBLINGS_FOR_MICRO_TEXT) {
-    result = "label-micro";
+    result = CSS_LABEL_MICRO;
   } else if (numSiblings >= NUM_SIBLINGS_FOR_TINY_TEXT) {
-    result = "label-tiny";
+    result = CSS_LABEL_TINY;
   } else if (numSiblings >= NUM_SIBLINGS_FOR_SMALL_TEXT) {
-    result = "label-small";
+    result = CSS_LABEL_SMALL;
   } else if (numSiblings > NOT_MANY_SIBLINGS && nameLen >= NUM_CHARS_FOR_TINY_TEXT) {
     // this should be combined with condition above
-    result = "label-tiny";
+    result = CSS_LABEL_TINY;
   }
   return result;
 }

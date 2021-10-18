@@ -52,7 +52,7 @@ describe("App", function () {
       // test
       const result = getFillColor(d);
 
-      expect(result).toEqual(d3.color("white"));
+      expect(result).toEqual(UNKNOWN_COLOR);
     });
     it("should handle non-leaf node", function () {
       const d = {
@@ -146,7 +146,7 @@ describe("App", function () {
       // test
       const result = getTextClass(d);
 
-      expect(result).toEqual("label-micro");
+      expect(result).toEqual(CSS_LABEL_MICRO);
     });
 
     it("should detect when to use tiny size", function () {
@@ -161,7 +161,7 @@ describe("App", function () {
       // test
       const result = getTextClass(d);
 
-      expect(result).toEqual("label-tiny");
+      expect(result).toEqual(CSS_LABEL_TINY);
     });
 
     it("should detect when to use small size", function () {
@@ -176,7 +176,7 @@ describe("App", function () {
       // test
       const result = getTextClass(d);
 
-      expect(result).toEqual("label-small");
+      expect(result).toEqual(CSS_LABEL_SMALL);
     });
 
     it("should have default value", function () {
@@ -193,7 +193,7 @@ describe("App", function () {
       // test
       const result = getTextClass(d);
 
-      expect(result).toEqual("label");
+      expect(result).toEqual(CSS_LABEL);
     });
   });
 
@@ -263,7 +263,6 @@ describe("App", function () {
           party: CONSERVATIVE_PARTY,
         },
       };
-
       // test
       const result = partySort(a, b);
 
