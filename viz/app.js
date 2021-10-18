@@ -65,6 +65,15 @@ const PARTY_COLOR_MAP = {
   [NDP_PARTY]: d3.rgb(216, 62, 24), // D8 3E 18
 };
 
+const PARTY_SORT_MAP = {
+  [LIBERAL_PARTY]: { sortOrder: 0 },
+  [CONSERVATIVE_PARTY]: { sortOrder: 1 },
+  [BLOC_QUEBECOIS_PARTY]: { sortOrder: 2 },
+  [NDP_PARTY]: { sortOrder: 3 },
+  [GREEN_PARTY]: { sortOrder: 4 },
+  [INDEPENDENT]: { sortOrder: 5 },
+};
+
 // from: https://medialab.github.io/iwanthue/
 const PARTY_ALT_COLOR_MAP = {
   [BLOC_QUEBECOIS_PARTY]: d3.rgb(151, 100, 201),
@@ -210,68 +219,49 @@ function getTextClass(d) {
   return result;
 }
 
+function nameSort(a, b) {
+  let result = 0;
+  if (a.data && b.data && a.data.name && b.data.name) {
+    if (a.data.name < b.data.name) {
+      result = -1;
+    }
+    if (a.data.name > b.data.name) {
+      result = 1;
+    }
+    // console.log(`TRACER ${result} A ${partyA} B ${partyB}`);
+  } else {
+    result = b.value - a.value;
+  }
+  return -1 * result;
+}
+
+function partySort(a, b) {
+  let result = 0;
+  if (a.data && b.data && a.data.party && b.data.party) {
+    const partyA = a.data.party;
+    const partyB = b.data.party;
+
+    const valueA = PARTY_SORT_MAP[partyA].sortOrder;
+    const valueB = PARTY_SORT_MAP[partyB].sortOrder;
+    if (valueA < valueB) {
+      result = -1;
+    }
+    if (valueA > valueB) {
+      result = 1;
+    }
+    console.log(`TRACER ${result} A ${partyA} B ${partyB}`);
+  } else {
+    result = b.value - a.value;
+  }
+  return result;
+}
+
 // ----------
 
 function updateNormalMode() {
   checkAltColorsForUI();
   drawCircle(NORMAL_JSON_FILE);
 }
-
-/*
-function drawLegend() {
-  let svg = d3.select("#legend");
-  svg.append("rect").attr("height", "100%").attr("width", "100%").attr("fill", d3.color(BACKGROUND_LIGHT));
-
-  let keys = [
-    GREEN_PARTY_LEGEND,
-    LIBERAL_PARTY_LEGEND,
-    NDP_PARTY_LEGEND,
-    CONSERVATIVE_PARTY_LEGEND,
-    BLOC_QUEBECOIS_PARTY_LEGEND,
-    INDEPENDENT_LEGEND,
-  ];
-
-  const firstDotX = 20;
-  const firstDotY = 20;
-  const deltaY = 25;
-  const radius = 7;
-
-  svg
-    .selectAll("mydots")
-    .data(keys)
-    .enter()
-    .append("circle")
-    .attr("cx", firstDotX)
-    .attr("cy", function (d, i) {
-      return firstDotY + i * deltaY;
-    }) // 100 is where the first dot appears. 25 is the distance between dots
-    .attr("r", radius)
-    .style("fill", function (d) {
-      return getColorForLegend(d);
-    });
-
-  const firstLabelX = firstDotX + 20;
-  const firstLabelY = firstDotY + 10;
-
-  svg
-    .selectAll("mylabels")
-    .data(keys)
-    .enter()
-    .append("text")
-    .attr("x", firstLabelX)
-    .attr("y", function (d, i) {
-      return firstLabelY + i * deltaY;
-    })
-    .style("fill", function (d) {
-      return getColorForLegend(d);
-    })
-    .text(function (d) {
-      return d;
-    })
-    .attr("text-anchor", "left")
-    .style("alignment-baseline", "middle");
-}
-*/
 
 function drawHorizontalLegend() {
   let svg = d3.select("#legend");
@@ -355,7 +345,7 @@ function drawCircle(jsonFile) {
         return d.size;
       })
       .sort(function (a, b) {
-        return b.value - a.value;
+        return partySort(a, b);
       });
 
     let focus = root,
