@@ -142,6 +142,10 @@ p {
   transform: translateY(0) !important;
 }
 
+.separator {
+  width: 100%;
+}
+
 /* begin: original D3 gist */
 
 .node {
