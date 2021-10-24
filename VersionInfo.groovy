@@ -5,7 +5,7 @@ def doStamp = { file, workingFile ->
     def pattern = "dd-MM-yyyy HH:mm";
     def formatter = new SimpleDateFormat(pattern)
     def timestamp = formatter.format(new Date())
-    def version = "v 1.1.0"
+    def version = "v 1.1.1"
 
     def VERSION_TOKEN = '__ZODIAC_VERSION'
     def TIMESTAMP_TOKEN = '__ZODIAC_TIMESTAMP'

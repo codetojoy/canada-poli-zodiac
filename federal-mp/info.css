@@ -33,6 +33,15 @@ label {
   text-decoration: none;
 }
 
+.about--list li {
+  color: var(--primary);
+  font-size: 1.2rem;
+}
+
+.about--list li a {
+  font-size: 1.2rem;
+}
+
 h1 {
   color: var(--primary);
   font-size: 1.8rem;
